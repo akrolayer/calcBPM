@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>625C1661-EA1C-4D47-ACAB-DE4B49683399</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
+			<key>fileName</key>
+			<string>625C1661-EA1C-4D47-ACAB-DE4B49683399.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>calcBPMTests-bvhtwiqnfhqqydapphhvyqbibwnd</string>
+			<key>timeStartedRecording</key>
+			<real>606062114.56772304</real>
+			<key>timeStoppedRecording</key>
+			<real>606062115.80776405</real>
+			<key>title</key>
+			<string>Build target calcBPMTests</string>
+			<key>uniqueIdentifier</key>
+			<string>625C1661-EA1C-4D47-ACAB-DE4B49683399</string>
+		</dict>
+		<key>CECDC87C-4A42-4106-97D7-33346C2470BA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>CECDC87C-4A42-4106-97D7-33346C2470BA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>calcBPM-bvhtwiqnfhqqydapphhvyqbibwnd</string>
+			<key>timeStartedRecording</key>
+			<real>606069514.98450506</real>
+			<key>timeStoppedRecording</key>
+			<real>606069519.03647399</real>
+			<key>title</key>
+			<string>Build target calcBPM</string>
+			<key>uniqueIdentifier</key>
+			<string>CECDC87C-4A42-4106-97D7-33346C2470BA</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>
