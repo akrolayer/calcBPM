@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>00C89BF1-6642-4429-B628-1ACD883AD26B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>00C89BF1-6642-4429-B628-1ACD883AD26B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>calcBPMMetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>calcBPMMetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug calcBPMMetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606222113.21513903</real>
+			<key>timeStoppedRecording</key>
+			<real>606222196.98597801</real>
+			<key>title</key>
+			<string>Debug calcBPMMetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>00C89BF1-6642-4429-B628-1ACD883AD26B</string>
+		</dict>
+		<key>0D2CD8E8-D367-441A-80E0-7B4283992D68</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0D2CD8E8-D367-441A-80E0-7B4283992D68.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>calcBPMMetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>calcBPMMetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug calcBPMMetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606149682.45454395</real>
+			<key>timeStoppedRecording</key>
+			<real>606149795.38064301</real>
+			<key>title</key>
+			<string>Debug calcBPMMetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>0D2CD8E8-D367-441A-80E0-7B4283992D68</string>
+		</dict>
+		<key>32E8D92C-B83E-411A-A9F1-D33A3ED62264</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>32E8D92C-B83E-411A-A9F1-D33A3ED62264.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>calcBPMMetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>calcBPMMetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug calcBPMMetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606233384.05897701</real>
+			<key>timeStoppedRecording</key>
+			<real>606233492.14955997</real>
+			<key>title</key>
+			<string>Debug calcBPMMetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>32E8D92C-B83E-411A-A9F1-D33A3ED62264</string>
+		</dict>
+		<key>344FA9C8-77CB-4CA7-A37F-227B7FC08CF3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>344FA9C8-77CB-4CA7-A37F-227B7FC08CF3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>calcBPMMetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>calcBPMMetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug calcBPMMetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606223834.17565</real>
+			<key>timeStoppedRecording</key>
+			<real>606223844.74028397</real>
+			<key>title</key>
+			<string>Debug calcBPMMetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>344FA9C8-77CB-4CA7-A37F-227B7FC08CF3</string>
+		</dict>
+		<key>3DA4C588-C443-493F-8F15-FCBF2F049297</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3DA4C588-C443-493F-8F15-FCBF2F049297.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>calcBPMMetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>calcBPMMetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug calcBPMMetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606220007.84964502</real>
+			<key>timeStoppedRecording</key>
+			<real>606221009.08344996</real>
+			<key>title</key>
+			<string>Debug calcBPMMetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>3DA4C588-C443-493F-8F15-FCBF2F049297</string>
+		</dict>
+		<key>40B66DF5-0220-4E26-99C3-BDE46706D45A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>40B66DF5-0220-4E26-99C3-BDE46706D45A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>calcBPMMetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>calcBPMMetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug calcBPMMetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606221177.73942196</real>
+			<key>timeStoppedRecording</key>
+			<real>606222101.69010901</real>
+			<key>title</key>
+			<string>Debug calcBPMMetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>40B66DF5-0220-4E26-99C3-BDE46706D45A</string>
+		</dict>
+		<key>44467E3A-D8C6-48AE-BF86-0410E9E5A509</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>44467E3A-D8C6-48AE-BF86-0410E9E5A509.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>calcBPMMetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>calcBPMMetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug calcBPMMetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606221027.20260799</real>
+			<key>timeStoppedRecording</key>
+			<real>606221168.86380303</real>
+			<key>title</key>
+			<string>Debug calcBPMMetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>44467E3A-D8C6-48AE-BF86-0410E9E5A509</string>
+		</dict>
+		<key>642DDE0C-4902-4CBD-9196-2E8741E61F43</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>642DDE0C-4902-4CBD-9196-2E8741E61F43.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>calcBPMMetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>calcBPMMetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug calcBPMMetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606222535.82052004</real>
+			<key>timeStoppedRecording</key>
+			<real>606223416.77934504</real>
+			<key>title</key>
+			<string>Debug calcBPMMetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>642DDE0C-4902-4CBD-9196-2E8741E61F43</string>
+		</dict>
+		<key>E0650E44-2DA2-4EAA-B4FE-3C575B1B9416</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E0650E44-2DA2-4EAA-B4FE-3C575B1B9416.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>calcBPMMetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>calcBPMMetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug calcBPMMetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606223419.27033699</real>
+			<key>timeStoppedRecording</key>
+			<real>606223830.715096</real>
+			<key>title</key>
+			<string>Debug calcBPMMetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>E0650E44-2DA2-4EAA-B4FE-3C575B1B9416</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
