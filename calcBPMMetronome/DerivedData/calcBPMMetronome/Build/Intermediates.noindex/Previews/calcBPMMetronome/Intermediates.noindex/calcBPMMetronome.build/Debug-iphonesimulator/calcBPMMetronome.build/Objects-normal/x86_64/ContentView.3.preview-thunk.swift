@@ -4,7 +4,7 @@ import SwiftUI
 
 extension ContentView_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/calcBPMMetronome/calcBPMMetronome/ContentView.swift", line: 103)
+        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/calcBPMMetronome/calcBPMMetronome/ContentView.swift", line: 104)
         AnyView(__designTimeSelection(ContentView(), "#9607.[3].[0].property.[0].[0]"))
 #sourceLocation()
     }
@@ -12,7 +12,7 @@ extension ContentView_Previews {
 
 extension ContentView {
     @_dynamicReplacement(for: calcQuarterNotes(BPM:Notes:)) private func __preview__calcQuarterNotes(BPM: String, Notes: String)-> String {
-        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/calcBPMMetronome/calcBPMMetronome/ContentView.swift", line: 81)
+        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/calcBPMMetronome/calcBPMMetronome/ContentView.swift", line: 82)
         guard var bpm = Int(BPM) else { return "false" }
         guard var notes = Int(Notes) else { return "false" }
         if notes % 12 == 0{
@@ -71,18 +71,18 @@ extension ContentView {
                     __designTimeSelection(Text("\(__designTimeString("#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[1].arg[0].value.[0].value", fallback: ""))\(__designTimeSelection(calcQuarterNotes(BPM: __designTimeSelection(BPM, "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[1].arg[0].value.[1].value.arg[0].value.arg[0].value"), Notes: __designTimeSelection(NotesList[__designTimeSelection(Note, "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[1].arg[0].value.[1].value.arg[0].value.arg[1].value.[0].value")], "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[1].arg[0].value.[1].value.arg[0].value.arg[1].value")), "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[1].arg[0].value.[1].value.arg[0].value"))\(__designTimeString("#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[1].arg[0].value.[2].value", fallback: "の４分"))")
                             .font(.headline)
                             .foregroundColor(.green), "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[1]")
-
+                    
+                    __designTimeSelection(TextField(__designTimeString("#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[2].arg[0].value.[0].value", fallback: "何回鳴らしますか？"), text:__designTimeSelection($PlayCount, "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[2].arg[1].value"))
+                    .textFieldStyle(__designTimeSelection(RoundedBorderTextFieldStyle(), "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[2].modifier[0].arg[0].value"))
+                    .keyboardType(.numberPad)
+                    .frame(width: __designTimeInteger("#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[2].modifier[2].arg[0].value", fallback: 250)), "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[2]")
+                    
                     __designTimeSelection(Button(action: {
-                        if self.isPlay{
-                            self.isPlay = false
-                        }else{
-                            self.isPlay = true
-                            __designTimeSelection(self.audioPlayer.metronome(BPM:__designTimeSelection(self.calcQuarterNotes(BPM: __designTimeSelection(self.BPM, "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[2].arg[0].value.[0].[1].[1].modifier[0].arg[0].value.modifier[0].arg[0].value"), Notes: __designTimeSelection(self.NotesList[__designTimeSelection(self.Note, "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[2].arg[0].value.[0].[1].[1].modifier[0].arg[0].value.modifier[0].arg[1].value.[0].value")], "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[2].arg[0].value.[0].[1].[1].modifier[0].arg[0].value.modifier[0].arg[1].value")), "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[2].arg[0].value.[0].[1].[1].modifier[0].arg[0].value"),isPlay:__designTimeSelection(self.isPlay, "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[2].arg[0].value.[0].[1].[1].modifier[0].arg[1].value")), "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[2].arg[0].value.[0].[1].[1]")
-                        }
+                        __designTimeSelection(self.audioPlayer.metronome(BPM:__designTimeSelection(self.calcQuarterNotes(BPM: __designTimeSelection(self.BPM, "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[3].arg[0].value.[0].modifier[0].arg[0].value.modifier[0].arg[0].value"), Notes: __designTimeSelection(self.NotesList[__designTimeSelection(self.Note, "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[3].arg[0].value.[0].modifier[0].arg[0].value.modifier[0].arg[1].value.[0].value")], "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[3].arg[0].value.[0].modifier[0].arg[0].value.modifier[0].arg[1].value")), "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[3].arg[0].value.[0].modifier[0].arg[0].value"),PlayCount: __designTimeSelection(self.PlayCount, "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[3].arg[0].value.[0].modifier[0].arg[1].value")), "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[3].arg[0].value.[0]")
                         
                     }) {
-                        __designTimeSelection(Text(__designTimeString("#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[2].arg[1].value.[0].arg[0].value.[0].value", fallback: "換算後のBPMを再生")), "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[2].arg[1].value.[0]")
-                    }, "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[2]")
+                        __designTimeSelection(Text(__designTimeString("#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[3].arg[1].value.[0].arg[0].value.[0].value", fallback: "換算後のBPMを再生")), "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[3].arg[1].value.[0]")
+                    }, "#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[3]")
  
                 }
                 else{

@@ -57,17 +57,18 @@ class AudioPlayer: ObservableObject {
     }
     
     //@discardableResult
-    func metronome(BPM: String, isPlay: Bool) -> Bool{
+    func metronome(BPM: String, PlayCount: String) -> Bool{
         guard let bpm = Double(BPM)
             else { return false }
-        if isPlay {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 60 / bpm, execute: {
-                        self.playSound2()
-            })
-            return true
-        }else{
-            return false
+        guard let playcount = Int(PlayCount)
+            else { return false }
+        var i = 0
+        while(i < playcount) {
+            self.playSound4()
+            Thread.sleep(forTimeInterval: 60 / bpm)
+            i += 1
         }
+            return true
         
         /*
         var i = 0

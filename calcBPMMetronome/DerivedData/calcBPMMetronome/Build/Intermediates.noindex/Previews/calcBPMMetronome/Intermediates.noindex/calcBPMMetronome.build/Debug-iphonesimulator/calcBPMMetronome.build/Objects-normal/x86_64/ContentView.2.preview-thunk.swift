@@ -4,7 +4,7 @@ import SwiftUI
 
 extension ContentView_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/calcBPMMetronome/calcBPMMetronome/ContentView.swift", line: 103)
+        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/calcBPMMetronome/calcBPMMetronome/ContentView.swift", line: 104)
         AnyView(ContentView())
 #sourceLocation()
     }
@@ -12,7 +12,7 @@ extension ContentView_Previews {
 
 extension ContentView {
     @_dynamicReplacement(for: calcQuarterNotes(BPM:Notes:)) private func __preview__calcQuarterNotes(BPM: String, Notes: String)-> String {
-        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/calcBPMMetronome/calcBPMMetronome/ContentView.swift", line: 81)
+        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/calcBPMMetronome/calcBPMMetronome/ContentView.swift", line: 82)
         guard var bpm = Int(BPM) else { return "false" }
         guard var notes = Int(Notes) else { return "false" }
         if notes % 12 == 0{
@@ -71,17 +71,17 @@ extension ContentView {
                     Text("\(__designTimeString("#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[1].arg[0].value.[0].value", fallback: ""))\(calcQuarterNotes(BPM: BPM, Notes: NotesList[Note]))\(__designTimeString("#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[1].arg[0].value.[2].value", fallback: "の４分"))")
                             .font(.headline)
                             .foregroundColor(.green)
-
+                    
+                    TextField(__designTimeString("#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[2].arg[0].value.[0].value", fallback: "何回鳴らしますか？"), text:$PlayCount)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .keyboardType(.numberPad)
+                    .frame(width: __designTimeInteger("#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[2].modifier[2].arg[0].value", fallback: 250))
+                    
                     Button(action: {
-                        if self.isPlay{
-                            self.isPlay = false
-                        }else{
-                            self.isPlay = true
-                            self.audioPlayer.metronome(BPM:self.calcQuarterNotes(BPM: self.BPM, Notes: self.NotesList[self.Note]),isPlay:self.isPlay)
-                        }
+                        self.audioPlayer.metronome(BPM:self.calcQuarterNotes(BPM: self.BPM, Notes: self.NotesList[self.Note]),PlayCount: self.PlayCount)
                         
                     }) {
-                        Text(__designTimeString("#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[2].arg[1].value.[0].arg[0].value.[0].value", fallback: "換算後のBPMを再生"))
+                        Text(__designTimeString("#9607.[2].[7].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[3].arg[1].value.[0].arg[0].value.[0].value", fallback: "換算後のBPMを再生"))
                     }
  
                 }

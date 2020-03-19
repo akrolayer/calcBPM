@@ -25,6 +25,7 @@ depends-top-level:
 - "AudioPlayer"
 - "Bool"
 - "BooleanLiteralType"
+- !private "Button"
 - !private "Color"
 - "ContentView"
 - "ContentView_Previews"
@@ -41,7 +42,6 @@ depends-top-level:
 - "StringLiteralType"
 - !private "Text"
 - !private "TextField"
-- !private "Toggle"
 - "UIApplication"
 - !private "UIResponder"
 - "UnicodeScalarType"
@@ -54,11 +54,13 @@ depends-member:
 - !private ["Sa", "subscript"]
 - ["16calcBPMMetronome11AudioPlayerC", "deinit"]
 - ["16calcBPMMetronome11AudioPlayerC", "init"]
+- !private ["16calcBPMMetronome11AudioPlayerC", "metronome"]
 - !private ["SK", "contains"]
 - !private ["SK", "count"]
 - !private ["SK", "init"]
 - !private ["SK", "subscript"]
 - !private ["Sz", "init"]
+- !private ["7SwiftUI6ButtonV", "init"]
 - !private ["s7CVarArgP", "UIResponder"]
 - !private ["s7CVarArgP", "count"]
 - !private ["s7CVarArgP", "endEditting"]
@@ -80,13 +82,14 @@ depends-member:
 - ["16calcBPMMetronome11ContentViewV", "$BPM"]
 - ["16calcBPMMetronome11ContentViewV", "$Note"]
 - ["16calcBPMMetronome11ContentViewV", "$Notes"]
+- ["16calcBPMMetronome11ContentViewV", "$PlayCount"]
 - ["16calcBPMMetronome11ContentViewV", "$audioPlayer"]
-- ["16calcBPMMetronome11ContentViewV", "$isPlay"]
 - ["16calcBPMMetronome11ContentViewV", "AudioPlayer"]
 - ["16calcBPMMetronome11ContentViewV", "BPM"]
 - ["16calcBPMMetronome11ContentViewV", "BPMIntCheck"]
 - ["16calcBPMMetronome11ContentViewV", "Body"]
 - ["16calcBPMMetronome11ContentViewV", "Bool"]
+- !private ["16calcBPMMetronome11ContentViewV", "Button"]
 - !private ["16calcBPMMetronome11ContentViewV", "Color"]
 - !private ["16calcBPMMetronome11ContentViewV", "ForEach"]
 - ["16calcBPMMetronome11ContentViewV", "Int"]
@@ -95,12 +98,12 @@ depends-member:
 - ["16calcBPMMetronome11ContentViewV", "NotesList"]
 - ["16calcBPMMetronome11ContentViewV", "ObservedObject"]
 - !private ["16calcBPMMetronome11ContentViewV", "Picker"]
+- ["16calcBPMMetronome11ContentViewV", "PlayCount"]
 - !private ["16calcBPMMetronome11ContentViewV", "RoundedBorderTextFieldStyle"]
 - ["16calcBPMMetronome11ContentViewV", "State"]
 - ["16calcBPMMetronome11ContentViewV", "String"]
 - !private ["16calcBPMMetronome11ContentViewV", "Text"]
 - !private ["16calcBPMMetronome11ContentViewV", "TextField"]
-- !private ["16calcBPMMetronome11ContentViewV", "Toggle"]
 - !private ["16calcBPMMetronome11ContentViewV", "UIApplication"]
 - !private ["16calcBPMMetronome11ContentViewV", "VStack"]
 - ["16calcBPMMetronome11ContentViewV", "View"]
@@ -109,8 +112,8 @@ depends-member:
 - ["16calcBPMMetronome11ContentViewV", "_Default_Body"]
 - !private ["16calcBPMMetronome11ContentViewV", "_Note"]
 - !private ["16calcBPMMetronome11ContentViewV", "_Notes"]
+- !private ["16calcBPMMetronome11ContentViewV", "_PlayCount"]
 - !private ["16calcBPMMetronome11ContentViewV", "_audioPlayer"]
-- !private ["16calcBPMMetronome11ContentViewV", "_isPlay"]
 - ["16calcBPMMetronome11ContentViewV", "_makeView"]
 - ["16calcBPMMetronome11ContentViewV", "_makeViewList"]
 - ["16calcBPMMetronome11ContentViewV", "audioPlayer"]
@@ -119,7 +122,6 @@ depends-member:
 - ["16calcBPMMetronome11ContentViewV", "deinit"]
 - ["16calcBPMMetronome11ContentViewV", "init"]
 - ["16calcBPMMetronome11ContentViewV", "isError"]
-- ["16calcBPMMetronome11ContentViewV", "isPlay"]
 - !private ["16calcBPMMetronome20ContentView_PreviewsV", "ContentView"]
 - ["16calcBPMMetronome20ContentView_PreviewsV", "Previews"]
 - ["16calcBPMMetronome20ContentView_PreviewsV", "View"]
@@ -140,12 +142,10 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "headline"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "largeTitle"]
-- !private ["s28CustomDebugStringConvertibleP", "none"]
 - !private ["s28CustomDebugStringConvertibleP", "red"]
 - !private ["s28CustomDebugStringConvertibleP", "resignFirstResponder"]
 - !private ["s28CustomDebugStringConvertibleP", "sendAction"]
 - !private ["s28CustomDebugStringConvertibleP", "shared"]
-- !private ["s28CustomDebugStringConvertibleP", "some"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "title"]
 - !private ["s17CustomReflectableP", "contains"]
@@ -154,9 +154,7 @@ depends-member:
 - !private ["s17CustomReflectableP", "headline"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "largeTitle"]
-- !private ["s17CustomReflectableP", "none"]
 - !private ["s17CustomReflectableP", "red"]
-- !private ["s17CustomReflectableP", "some"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s17CustomReflectableP", "title"]
 - !private ["s23CustomStringConvertibleP", "UIResponder"]
@@ -180,9 +178,7 @@ depends-member:
 - !private ["Se", "headline"]
 - !private ["Se", "init"]
 - !private ["Se", "largeTitle"]
-- !private ["Se", "none"]
 - !private ["Se", "red"]
-- !private ["Se", "some"]
 - !private ["Se", "subscript"]
 - !private ["Se", "title"]
 - ["7SwiftUI15DynamicPropertyP", "init"]
@@ -194,9 +190,7 @@ depends-member:
 - !private ["SE", "headline"]
 - !private ["SE", "init"]
 - !private ["SE", "largeTitle"]
-- !private ["SE", "none"]
 - !private ["SE", "red"]
-- !private ["SE", "some"]
 - !private ["SE", "subscript"]
 - !private ["SE", "title"]
 - !private ["SQ", "UIResponder"]
@@ -209,14 +203,12 @@ depends-member:
 - !private ["SQ", "headline"]
 - !private ["SQ", "init"]
 - !private ["SQ", "largeTitle"]
-- !private ["SQ", "none"]
 - !private ["SQ", "numberPad"]
 - !private ["SQ", "onTapGesture"]
 - !private ["SQ", "red"]
 - !private ["SQ", "resignFirstResponder"]
 - !private ["SQ", "sendAction"]
 - !private ["SQ", "shared"]
-- !private ["SQ", "some"]
 - !private ["SQ", "subscript"]
 - !private ["SQ", "title"]
 - !private ["SQ", "white"]
@@ -227,9 +219,7 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "green"]
 - !private ["s23ExpressibleByNilLiteralP", "headline"]
 - !private ["s23ExpressibleByNilLiteralP", "largeTitle"]
-- !private ["s23ExpressibleByNilLiteralP", "none"]
 - !private ["s23ExpressibleByNilLiteralP", "red"]
-- !private ["s23ExpressibleByNilLiteralP", "some"]
 - !private ["s23ExpressibleByNilLiteralP", "title"]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
@@ -242,9 +232,7 @@ depends-member:
 - !private ["7SwiftUI7GestureP", "green"]
 - !private ["7SwiftUI7GestureP", "headline"]
 - !private ["7SwiftUI7GestureP", "largeTitle"]
-- !private ["7SwiftUI7GestureP", "none"]
 - !private ["7SwiftUI7GestureP", "red"]
-- !private ["7SwiftUI7GestureP", "some"]
 - !private ["7SwiftUI7GestureP", "title"]
 - !private ["SH", "UIResponder"]
 - !private ["SH", "contains"]
@@ -254,14 +242,12 @@ depends-member:
 - !private ["SH", "headline"]
 - !private ["SH", "init"]
 - !private ["SH", "largeTitle"]
-- !private ["SH", "none"]
 - !private ["SH", "numberPad"]
 - !private ["SH", "onTapGesture"]
 - !private ["SH", "red"]
 - !private ["SH", "resignFirstResponder"]
 - !private ["SH", "sendAction"]
 - !private ["SH", "shared"]
-- !private ["SH", "some"]
 - !private ["SH", "subscript"]
 - !private ["SH", "title"]
 - !private ["SH", "white"]
@@ -284,14 +270,13 @@ depends-member:
 - !private ["So8NSObjectP", "shared"]
 - !private ["Sj", "init"]
 - ["7Combine16ObservableObjectP", "init"]
+- !private ["7Combine16ObservableObjectP", "metronome"]
 - ["7SwiftUI14ObservedObjectV", "init"]
 - ["7SwiftUI14ObservedObjectV", "wrappedValue"]
 - !private ["Sq", "green"]
 - !private ["Sq", "headline"]
 - !private ["Sq", "largeTitle"]
-- !private ["Sq", "none"]
 - !private ["Sq", "red"]
-- !private ["Sq", "some"]
 - !private ["Sq", "title"]
 - !private ["7SwiftUI6PickerV", "init"]
 - !private ["7SwiftUI15PreviewProviderP", "ContentView"]
@@ -339,8 +324,6 @@ depends-member:
 - !private ["7SwiftUI14TextFieldStyleP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
-- !private ["7SwiftUI6ToggleV", "fixedSize"]
-- !private ["7SwiftUI6ToggleV", "init"]
 - !private ["So13UIApplicationC", "UIResponder"]
 - ["So13UIApplicationC", "endEditting"]
 - !private ["So13UIApplicationC", "sendAction"]
@@ -369,22 +352,23 @@ depends-member:
 - !private ["7SwiftUI6VStackV", "init"]
 - !private ["7SwiftUI4ViewP", "$BPM"]
 - !private ["7SwiftUI4ViewP", "$Note"]
-- !private ["7SwiftUI4ViewP", "$isPlay"]
+- !private ["7SwiftUI4ViewP", "$PlayCount"]
 - ["7SwiftUI4ViewP", "AudioPlayer"]
 - !private ["7SwiftUI4ViewP", "BPM"]
 - !private ["7SwiftUI4ViewP", "BPMIntCheck"]
 - ["7SwiftUI4ViewP", "Body"]
+- !private ["7SwiftUI4ViewP", "Button"]
 - !private ["7SwiftUI4ViewP", "Color"]
 - !private ["7SwiftUI4ViewP", "ForEach"]
 - !private ["7SwiftUI4ViewP", "Int"]
 - !private ["7SwiftUI4ViewP", "Note"]
 - !private ["7SwiftUI4ViewP", "NotesList"]
 - !private ["7SwiftUI4ViewP", "Picker"]
+- !private ["7SwiftUI4ViewP", "PlayCount"]
 - !private ["7SwiftUI4ViewP", "RoundedBorderTextFieldStyle"]
 - !private ["7SwiftUI4ViewP", "String"]
 - !private ["7SwiftUI4ViewP", "Text"]
 - !private ["7SwiftUI4ViewP", "TextField"]
-- !private ["7SwiftUI4ViewP", "Toggle"]
 - !private ["7SwiftUI4ViewP", "UIApplication"]
 - !private ["7SwiftUI4ViewP", "VStack"]
 - !private ["7SwiftUI4ViewP", "ZStack"]
@@ -392,28 +376,24 @@ depends-member:
 - ["7SwiftUI4ViewP", "_Default_Body"]
 - ["7SwiftUI4ViewP", "_makeView"]
 - ["7SwiftUI4ViewP", "_makeViewList"]
+- !private ["7SwiftUI4ViewP", "audioPlayer"]
 - ["7SwiftUI4ViewP", "body"]
 - !private ["7SwiftUI4ViewP", "calcQuarterNotes"]
-- !private ["7SwiftUI4ViewP", "fixedSize"]
 - !private ["7SwiftUI4ViewP", "font"]
 - !private ["7SwiftUI4ViewP", "foregroundColor"]
 - !private ["7SwiftUI4ViewP", "frame"]
 - !private ["7SwiftUI4ViewP", "green"]
 - !private ["7SwiftUI4ViewP", "headline"]
 - !private ["7SwiftUI4ViewP", "init"]
-- !private ["7SwiftUI4ViewP", "isPlay"]
 - !private ["7SwiftUI4ViewP", "keyboardType"]
 - !private ["7SwiftUI4ViewP", "largeTitle"]
-- !private ["7SwiftUI4ViewP", "none"]
 - !private ["7SwiftUI4ViewP", "onTapGesture"]
 - !private ["7SwiftUI4ViewP", "red"]
-- !private ["7SwiftUI4ViewP", "some"]
 - !private ["7SwiftUI4ViewP", "textFieldStyle"]
 - !private ["7SwiftUI4ViewP", "title"]
 - !private ["7SwiftUI4ViewP", "white"]
 - !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
 - !private ["7SwiftUI11ViewBuilderV", "buildEither"]
-- !private ["7SwiftUI11ViewBuilderV", "buildIf"]
 - !private ["7SwiftUI6ZStackV", "init"]
 - !private ["s14_ArrayProtocolP", "count"]
 - !private ["s14_ArrayProtocolP", "subscript"]
@@ -446,9 +426,7 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "headline"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "largeTitle"]
-- !private ["s21_ObjectiveCBridgeableP", "none"]
 - !private ["s21_ObjectiveCBridgeableP", "red"]
-- !private ["s21_ObjectiveCBridgeableP", "some"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "title"]
 - !private ["7SwiftUI16_PreviewProviderP", "ContentView"]
@@ -465,6 +443,7 @@ depends-nominal:
 - "16calcBPMMetronome11AudioPlayerC"
 - !private "SK"
 - !private "Sz"
+- !private "7SwiftUI6ButtonV"
 - !private "s7CVarArgP"
 - !private "SN"
 - !private "Sl"
@@ -528,7 +507,6 @@ depends-nominal:
 - !private "7SwiftUI14TextFieldStyleP"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
-- !private "7SwiftUI6ToggleV"
 - "So13UIApplicationC"
 - !private "So14UIKeyboardTypeV"
 - !private "So30UIPasteConfigurationSupportingP"
@@ -617,4 +595,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "adec3b75796fa09ccceb8c94dd9f51b6"
+interface-hash: "8777b197a6718a90dc073efb64f7b6aa"

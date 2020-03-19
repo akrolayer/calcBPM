@@ -20,7 +20,7 @@ struct ContentView: View {
     @State var BPM: String = ""
     @State var Notes: String = ""
     @State var Note: Int = 0
-    @State var isPlay = false
+    @State var PlayCount: String = ""
     let NotesList = ["4", "8", "12", "16", "24", "32", "48", "64"]
     var isError: Bool = true
     @ObservedObject var audioPlayer = AudioPlayer()
@@ -49,14 +49,14 @@ struct ContentView: View {
                     Text("\(calcQuarterNotes(BPM: BPM, Notes: NotesList[Note]))の４分")
                             .font(.headline)
                             .foregroundColor(.green)
-
+                    
+                    TextField("何回鳴らしますか？", text:$PlayCount)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .keyboardType(.numberPad)
+                    .frame(width: 250)
+                    
                     Button(action: {
-                        if self.isPlay{
-                            self.isPlay = false
-                        }else{
-                            self.isPlay = true
-                            self.audioPlayer.metronome(BPM:self.calcQuarterNotes(BPM: self.BPM, Notes: self.NotesList[self.Note]),isPlay:self.isPlay)
-                        }
+                        self.audioPlayer.metronome(BPM:self.calcQuarterNotes(BPM: self.BPM, Notes: self.NotesList[self.Note]),PlayCount: self.PlayCount)
                         
                     }) {
                         Text("換算後のBPMを再生")
@@ -77,6 +77,7 @@ struct ContentView: View {
         }
         return (10...1000).contains(bpm)
     }
+
     func calcQuarterNotes(BPM: String, Notes: String)-> String{
         guard var bpm = Int(BPM) else { return "false" }
         guard var notes = Int(Notes) else { return "false" }
