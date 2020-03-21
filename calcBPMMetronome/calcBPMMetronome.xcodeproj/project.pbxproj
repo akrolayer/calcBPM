@@ -16,6 +16,7 @@
 		E15C02F3242119ED00F69FE3 /* calcBPMMetronomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C02F2242119ED00F69FE3 /* calcBPMMetronomeTests.swift */; };
 		E15C02FE24211A2500F69FE3 /* audioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C02FD24211A2500F69FE3 /* audioPlayer.swift */; };
 		E17EC72724223C0500E7F305 /* clap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E17EC72624223C0500E7F305 /* clap.mp3 */; };
+		E17EC729242511BC00E7F305 /* MultilineTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17EC728242511BB00E7F305 /* MultilineTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		E15C02F4242119ED00F69FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E15C02FD24211A2500F69FE3 /* audioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audioPlayer.swift; sourceTree = "<group>"; };
 		E17EC72624223C0500E7F305 /* clap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clap.mp3; sourceTree = "<group>"; };
+		E17EC728242511BB00E7F305 /* MultilineTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				E15C02DB242119E900F69FE3 /* AppDelegate.swift */,
 				E15C02DD242119E900F69FE3 /* SceneDelegate.swift */,
 				E15C02DF242119E900F69FE3 /* ContentView.swift */,
+				E17EC728242511BB00E7F305 /* MultilineTextView.swift */,
 				E15C02E1242119EC00F69FE3 /* Assets.xcassets */,
 				E17EC72624223C0500E7F305 /* clap.mp3 */,
 				E15C02E6242119EC00F69FE3 /* LaunchScreen.storyboard */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E17EC729242511BC00E7F305 /* MultilineTextView.swift in Sources */,
 				E15C02DC242119E900F69FE3 /* AppDelegate.swift in Sources */,
 				E15C02DE242119E900F69FE3 /* SceneDelegate.swift in Sources */,
 				E15C02E0242119E900F69FE3 /* ContentView.swift in Sources */,

@@ -11,20 +11,6 @@ import Combine
 
 class AudioPlayer: ObservableObject {
     var sound: AVAudioPlayer?
-    /*
-    func playSound(){
-        var sound = AVAudioPlayer()
-        if let path = Bundle.main.path(forResource: "clap-toilet-06", ofType: "mp3"){
-            do{
-                sound = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: path))
-                sound.play()
-                //sound.stop()
-            }catch{
-                print("Could not file path")
-            }
-        }
-    }
- */
     func playSound4(){
         if let path = Bundle.main.path(forResource: "clap", ofType: "mp3") {
             do {
@@ -56,7 +42,7 @@ class AudioPlayer: ObservableObject {
         }
     }
     
-    //@discardableResult
+    @discardableResult
     func metronome(BPM: String, PlayCount: String) -> Bool{
         guard let bpm = Double(BPM)
             else { return false }
@@ -69,28 +55,6 @@ class AudioPlayer: ObservableObject {
             i += 1
         }
             return true
-        
-        /*
-        var i = 0
-        while(i < 1){
-            
-            if(i % 4 == 0){
-                playSound3()
-                Thread.sleep(forTimeInterval: 60 / bpm)
-                i += 1
-            }else{
-            DispatchQueue.main.asyncAfter(deadline: .now() + 60 / bpm, execute: {
-                self.playSound2()
-                i += 1
-            })
-                //Thread.sleep(forTimeInterval: 60 / bpm)
-                
-            //}
- 
-        }
- 
-        return true
- */
     }
 }
 

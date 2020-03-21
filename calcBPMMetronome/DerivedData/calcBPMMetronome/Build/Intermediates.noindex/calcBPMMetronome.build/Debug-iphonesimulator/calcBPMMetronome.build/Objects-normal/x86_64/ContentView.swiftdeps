@@ -33,6 +33,7 @@ depends-top-level:
 - !private "ForEach"
 - "Int"
 - "IntegerLiteralType"
+- !private "MultilineTextView"
 - "ObservedObject"
 - !private "Picker"
 - "PreviewProvider"
@@ -82,8 +83,9 @@ depends-member:
 - ["16calcBPMMetronome11ContentViewV", "$BPM"]
 - ["16calcBPMMetronome11ContentViewV", "$Note"]
 - ["16calcBPMMetronome11ContentViewV", "$Notes"]
+- ["16calcBPMMetronome11ContentViewV", "$PlayCount"]
 - ["16calcBPMMetronome11ContentViewV", "$audioPlayer"]
-- ["16calcBPMMetronome11ContentViewV", "$isPlay"]
+- ["16calcBPMMetronome11ContentViewV", "$text"]
 - ["16calcBPMMetronome11ContentViewV", "AudioPlayer"]
 - ["16calcBPMMetronome11ContentViewV", "BPM"]
 - ["16calcBPMMetronome11ContentViewV", "BPMIntCheck"]
@@ -93,11 +95,13 @@ depends-member:
 - !private ["16calcBPMMetronome11ContentViewV", "Color"]
 - !private ["16calcBPMMetronome11ContentViewV", "ForEach"]
 - ["16calcBPMMetronome11ContentViewV", "Int"]
+- !private ["16calcBPMMetronome11ContentViewV", "MultilineTextView"]
 - ["16calcBPMMetronome11ContentViewV", "Note"]
 - ["16calcBPMMetronome11ContentViewV", "Notes"]
 - ["16calcBPMMetronome11ContentViewV", "NotesList"]
 - ["16calcBPMMetronome11ContentViewV", "ObservedObject"]
 - !private ["16calcBPMMetronome11ContentViewV", "Picker"]
+- ["16calcBPMMetronome11ContentViewV", "PlayCount"]
 - !private ["16calcBPMMetronome11ContentViewV", "RoundedBorderTextFieldStyle"]
 - ["16calcBPMMetronome11ContentViewV", "State"]
 - ["16calcBPMMetronome11ContentViewV", "String"]
@@ -111,17 +115,18 @@ depends-member:
 - ["16calcBPMMetronome11ContentViewV", "_Default_Body"]
 - !private ["16calcBPMMetronome11ContentViewV", "_Note"]
 - !private ["16calcBPMMetronome11ContentViewV", "_Notes"]
+- !private ["16calcBPMMetronome11ContentViewV", "_PlayCount"]
 - !private ["16calcBPMMetronome11ContentViewV", "_audioPlayer"]
-- !private ["16calcBPMMetronome11ContentViewV", "_isPlay"]
 - ["16calcBPMMetronome11ContentViewV", "_makeView"]
 - ["16calcBPMMetronome11ContentViewV", "_makeViewList"]
+- !private ["16calcBPMMetronome11ContentViewV", "_text"]
 - ["16calcBPMMetronome11ContentViewV", "audioPlayer"]
 - ["16calcBPMMetronome11ContentViewV", "body"]
 - ["16calcBPMMetronome11ContentViewV", "calcQuarterNotes"]
 - ["16calcBPMMetronome11ContentViewV", "deinit"]
 - ["16calcBPMMetronome11ContentViewV", "init"]
 - ["16calcBPMMetronome11ContentViewV", "isError"]
-- ["16calcBPMMetronome11ContentViewV", "isPlay"]
+- ["16calcBPMMetronome11ContentViewV", "text"]
 - !private ["16calcBPMMetronome20ContentView_PreviewsV", "ContentView"]
 - ["16calcBPMMetronome20ContentView_PreviewsV", "Previews"]
 - ["16calcBPMMetronome20ContentView_PreviewsV", "View"]
@@ -254,6 +259,9 @@ depends-member:
 - !private ["Si", "init"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
+- !private ["16calcBPMMetronome17MultilineTextViewV", "deinit"]
+- !private ["16calcBPMMetronome17MultilineTextViewV", "frame"]
+- !private ["16calcBPMMetronome17MultilineTextViewV", "init"]
 - !private ["SM", "count"]
 - !private ["SM", "subscript"]
 - !private ["10Foundation19MutableDataProtocolP", "count"]
@@ -349,9 +357,13 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "resignFirstResponder"]
 - !private ["So23UIUserActivityRestoringP", "sendAction"]
 - !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["7SwiftUI19UIViewRepresentableP", "frame"]
+- !private ["7SwiftUI19UIViewRepresentableP", "init"]
 - !private ["7SwiftUI6VStackV", "init"]
 - !private ["7SwiftUI4ViewP", "$BPM"]
 - !private ["7SwiftUI4ViewP", "$Note"]
+- !private ["7SwiftUI4ViewP", "$PlayCount"]
+- !private ["7SwiftUI4ViewP", "$text"]
 - ["7SwiftUI4ViewP", "AudioPlayer"]
 - !private ["7SwiftUI4ViewP", "BPM"]
 - !private ["7SwiftUI4ViewP", "BPMIntCheck"]
@@ -360,9 +372,11 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "Color"]
 - !private ["7SwiftUI4ViewP", "ForEach"]
 - !private ["7SwiftUI4ViewP", "Int"]
+- !private ["7SwiftUI4ViewP", "MultilineTextView"]
 - !private ["7SwiftUI4ViewP", "Note"]
 - !private ["7SwiftUI4ViewP", "NotesList"]
 - !private ["7SwiftUI4ViewP", "Picker"]
+- !private ["7SwiftUI4ViewP", "PlayCount"]
 - !private ["7SwiftUI4ViewP", "RoundedBorderTextFieldStyle"]
 - !private ["7SwiftUI4ViewP", "String"]
 - !private ["7SwiftUI4ViewP", "Text"]
@@ -383,7 +397,6 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "green"]
 - !private ["7SwiftUI4ViewP", "headline"]
 - !private ["7SwiftUI4ViewP", "init"]
-- !private ["7SwiftUI4ViewP", "isPlay"]
 - !private ["7SwiftUI4ViewP", "keyboardType"]
 - !private ["7SwiftUI4ViewP", "largeTitle"]
 - !private ["7SwiftUI4ViewP", "onTapGesture"]
@@ -475,6 +488,7 @@ depends-nominal:
 - !private "Si"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
+- !private "16calcBPMMetronome17MultilineTextViewV"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
 - "So8NSObjectC"
@@ -512,6 +526,7 @@ depends-nominal:
 - "So11UIResponderC"
 - !private "So30UIResponderStandardEditActionsP"
 - !private "So23UIUserActivityRestoringP"
+- !private "7SwiftUI19UIViewRepresentableP"
 - !private "7SwiftUI6VStackV"
 - "7SwiftUI4ViewP"
 - !private "7SwiftUI11ViewBuilderV"
@@ -594,4 +609,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "adec3b75796fa09ccceb8c94dd9f51b6"
+interface-hash: "71cab8d97fed2c52cbf2a724a7b8506c"

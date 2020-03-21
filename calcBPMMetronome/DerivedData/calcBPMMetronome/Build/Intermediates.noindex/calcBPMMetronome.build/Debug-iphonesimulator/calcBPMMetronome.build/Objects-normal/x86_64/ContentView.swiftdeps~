@@ -42,7 +42,6 @@ depends-top-level:
 - "StringLiteralType"
 - !private "Text"
 - !private "TextField"
-- !private "Toggle"
 - "UIApplication"
 - !private "UIResponder"
 - "UnicodeScalarType"
@@ -83,8 +82,8 @@ depends-member:
 - ["16calcBPMMetronome11ContentViewV", "$BPM"]
 - ["16calcBPMMetronome11ContentViewV", "$Note"]
 - ["16calcBPMMetronome11ContentViewV", "$Notes"]
+- ["16calcBPMMetronome11ContentViewV", "$PlayCount"]
 - ["16calcBPMMetronome11ContentViewV", "$audioPlayer"]
-- ["16calcBPMMetronome11ContentViewV", "$isPlay"]
 - ["16calcBPMMetronome11ContentViewV", "AudioPlayer"]
 - ["16calcBPMMetronome11ContentViewV", "BPM"]
 - ["16calcBPMMetronome11ContentViewV", "BPMIntCheck"]
@@ -99,12 +98,12 @@ depends-member:
 - ["16calcBPMMetronome11ContentViewV", "NotesList"]
 - ["16calcBPMMetronome11ContentViewV", "ObservedObject"]
 - !private ["16calcBPMMetronome11ContentViewV", "Picker"]
+- ["16calcBPMMetronome11ContentViewV", "PlayCount"]
 - !private ["16calcBPMMetronome11ContentViewV", "RoundedBorderTextFieldStyle"]
 - ["16calcBPMMetronome11ContentViewV", "State"]
 - ["16calcBPMMetronome11ContentViewV", "String"]
 - !private ["16calcBPMMetronome11ContentViewV", "Text"]
 - !private ["16calcBPMMetronome11ContentViewV", "TextField"]
-- !private ["16calcBPMMetronome11ContentViewV", "Toggle"]
 - !private ["16calcBPMMetronome11ContentViewV", "UIApplication"]
 - !private ["16calcBPMMetronome11ContentViewV", "VStack"]
 - ["16calcBPMMetronome11ContentViewV", "View"]
@@ -113,8 +112,8 @@ depends-member:
 - ["16calcBPMMetronome11ContentViewV", "_Default_Body"]
 - !private ["16calcBPMMetronome11ContentViewV", "_Note"]
 - !private ["16calcBPMMetronome11ContentViewV", "_Notes"]
+- !private ["16calcBPMMetronome11ContentViewV", "_PlayCount"]
 - !private ["16calcBPMMetronome11ContentViewV", "_audioPlayer"]
-- !private ["16calcBPMMetronome11ContentViewV", "_isPlay"]
 - ["16calcBPMMetronome11ContentViewV", "_makeView"]
 - ["16calcBPMMetronome11ContentViewV", "_makeViewList"]
 - ["16calcBPMMetronome11ContentViewV", "audioPlayer"]
@@ -123,7 +122,6 @@ depends-member:
 - ["16calcBPMMetronome11ContentViewV", "deinit"]
 - ["16calcBPMMetronome11ContentViewV", "init"]
 - ["16calcBPMMetronome11ContentViewV", "isError"]
-- ["16calcBPMMetronome11ContentViewV", "isPlay"]
 - !private ["16calcBPMMetronome20ContentView_PreviewsV", "ContentView"]
 - ["16calcBPMMetronome20ContentView_PreviewsV", "Previews"]
 - ["16calcBPMMetronome20ContentView_PreviewsV", "View"]
@@ -326,8 +324,6 @@ depends-member:
 - !private ["7SwiftUI14TextFieldStyleP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
-- !private ["7SwiftUI6ToggleV", "fixedSize"]
-- !private ["7SwiftUI6ToggleV", "init"]
 - !private ["So13UIApplicationC", "UIResponder"]
 - ["So13UIApplicationC", "endEditting"]
 - !private ["So13UIApplicationC", "sendAction"]
@@ -356,7 +352,7 @@ depends-member:
 - !private ["7SwiftUI6VStackV", "init"]
 - !private ["7SwiftUI4ViewP", "$BPM"]
 - !private ["7SwiftUI4ViewP", "$Note"]
-- !private ["7SwiftUI4ViewP", "$isPlay"]
+- !private ["7SwiftUI4ViewP", "$PlayCount"]
 - ["7SwiftUI4ViewP", "AudioPlayer"]
 - !private ["7SwiftUI4ViewP", "BPM"]
 - !private ["7SwiftUI4ViewP", "BPMIntCheck"]
@@ -368,11 +364,11 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "Note"]
 - !private ["7SwiftUI4ViewP", "NotesList"]
 - !private ["7SwiftUI4ViewP", "Picker"]
+- !private ["7SwiftUI4ViewP", "PlayCount"]
 - !private ["7SwiftUI4ViewP", "RoundedBorderTextFieldStyle"]
 - !private ["7SwiftUI4ViewP", "String"]
 - !private ["7SwiftUI4ViewP", "Text"]
 - !private ["7SwiftUI4ViewP", "TextField"]
-- !private ["7SwiftUI4ViewP", "Toggle"]
 - !private ["7SwiftUI4ViewP", "UIApplication"]
 - !private ["7SwiftUI4ViewP", "VStack"]
 - !private ["7SwiftUI4ViewP", "ZStack"]
@@ -383,14 +379,12 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "audioPlayer"]
 - ["7SwiftUI4ViewP", "body"]
 - !private ["7SwiftUI4ViewP", "calcQuarterNotes"]
-- !private ["7SwiftUI4ViewP", "fixedSize"]
 - !private ["7SwiftUI4ViewP", "font"]
 - !private ["7SwiftUI4ViewP", "foregroundColor"]
 - !private ["7SwiftUI4ViewP", "frame"]
 - !private ["7SwiftUI4ViewP", "green"]
 - !private ["7SwiftUI4ViewP", "headline"]
 - !private ["7SwiftUI4ViewP", "init"]
-- !private ["7SwiftUI4ViewP", "isPlay"]
 - !private ["7SwiftUI4ViewP", "keyboardType"]
 - !private ["7SwiftUI4ViewP", "largeTitle"]
 - !private ["7SwiftUI4ViewP", "onTapGesture"]
@@ -513,7 +507,6 @@ depends-nominal:
 - !private "7SwiftUI14TextFieldStyleP"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
-- !private "7SwiftUI6ToggleV"
 - "So13UIApplicationC"
 - !private "So14UIKeyboardTypeV"
 - !private "So30UIPasteConfigurationSupportingP"
@@ -602,4 +595,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "adec3b75796fa09ccceb8c94dd9f51b6"
+interface-hash: "8777b197a6718a90dc073efb64f7b6aa"

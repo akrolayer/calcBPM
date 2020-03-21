@@ -7,7 +7,6 @@ provides-member:
 - ["16calcBPMMetronome11AudioPlayerC", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "*"
 - !private "+="
 - !private "/"
 - !private "<"
@@ -126,7 +125,7 @@ depends-member:
 - ["7Combine16ObservableObjectP", ""]
 - ["7Combine16ObservableObjectP", "_Default_ObjectWillChangePublisher"]
 - ["7Combine16ObservableObjectP", "objectWillChange"]
-- !private ["7Combine16ObservableObjectP", "playSound2"]
+- !private ["7Combine16ObservableObjectP", "playSound4"]
 - !private ["7Combine16ObservableObjectP", "print"]
 - !private ["7Combine16ObservableObjectP", "sound"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
