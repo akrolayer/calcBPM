@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>E16E21BD-626A-4EE5-9207-A573CD847DDC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E16E21BD-626A-4EE5-9207-A573CD847DDC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TabCalcBPMmetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TabCalcBPMmetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606588078.12325895</real>
+			<key>timeStoppedRecording</key>
+			<real>606588090.30718005</real>
+			<key>title</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>E16E21BD-626A-4EE5-9207-A573CD847DDC</string>
+		</dict>
+		<key>FB34C500-8C75-4747-90FE-966DFAB2047B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FB34C500-8C75-4747-90FE-966DFAB2047B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TabCalcBPMmetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TabCalcBPMmetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606590224.25822306</real>
+			<key>timeStoppedRecording</key>
+			<real>606590234.88598001</real>
+			<key>title</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>FB34C500-8C75-4747-90FE-966DFAB2047B</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

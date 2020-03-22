@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "36f43d4c40df625c280d646e7e3ae4e6"
+build_time: [1584895035, 540381000]
+inputs:
+  "/Users/akrolayer/Desktop/CalcBPMMetronome/calcBPMMetronome/calcBPMMetronome/MultilineTextView.swift": [1584893745, 462403617]
+  "/Users/akrolayer/Desktop/CalcBPMMetronome/calcBPMMetronome/calcBPMMetronome/AppDelegate.swift": [1584456297, 262733872]
+  "/Users/akrolayer/Desktop/CalcBPMMetronome/calcBPMMetronome/calcBPMMetronome/SceneDelegate.swift": [1584456297, 268311639]
+  "/Users/akrolayer/Desktop/CalcBPMMetronome/calcBPMMetronome/calcBPMMetronome/ContentView.swift": [1584894659, 542633065]
+  "/Users/akrolayer/Desktop/CalcBPMMetronome/calcBPMMetronome/calcBPMMetronome/audioPlayer.swift": [1584715114, 263452293]
