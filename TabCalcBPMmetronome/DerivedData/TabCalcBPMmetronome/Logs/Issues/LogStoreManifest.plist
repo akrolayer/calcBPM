@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>975D0984-600A-4858-847E-172D8FFC0EBC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>975D0984-600A-4858-847E-172D8FFC0EBC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>TabCalcBPMmetronome-bzaawvpwhbcotbgvmloligbzomuv</string>
+			<key>timeStartedRecording</key>
+			<real>606590224.40159404</real>
+			<key>timeStoppedRecording</key>
+			<real>606590233.78847396</real>
+			<key>title</key>
+			<string>Build target TabCalcBPMmetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>975D0984-600A-4858-847E-172D8FFC0EBC</string>
+		</dict>
+		<key>F1826D80-FA7C-4696-BFCB-55BA1F3E2AFA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
+			<key>fileName</key>
+			<string>F1826D80-FA7C-4696-BFCB-55BA1F3E2AFA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>TabCalcBPMmetronomeTests-bzaawvpwhbcotbgvmloligbzomuv</string>
+			<key>timeStartedRecording</key>
+			<real>606590233.79107797</real>
+			<key>timeStoppedRecording</key>
+			<real>606590234.87583899</real>
+			<key>title</key>
+			<string>Build target TabCalcBPMmetronomeTests</string>
+			<key>uniqueIdentifier</key>
+			<string>F1826D80-FA7C-4696-BFCB-55BA1F3E2AFA</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

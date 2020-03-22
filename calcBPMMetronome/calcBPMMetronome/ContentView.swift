@@ -22,6 +22,7 @@ struct ContentView: View {
     @State var Note: Int = 0
     @State var PlayCount: String = ""
     @State var text: String = ""
+    
     let NotesList = ["4", "8", "12", "16", "24", "32", "48", "64"]
     var isError: Bool = true
     @ObservedObject var audioPlayer = AudioPlayer()
@@ -62,14 +63,22 @@ struct ContentView: View {
                     }) {
                         Text("換算後のBPMを再生")
                     }
-                        MultilineTextView(text: $text)
-                            .frame(height:250)
-                            .keyboardType(.numberPad)
+                        
                 }
                 else{
                     Text("BPMは10〜1000を入力してください")
                         .foregroundColor(.red)
                         .font(.headline)
+                    
+                    /*
+                    MultilineTextView(text: $text)
+                        .keyboardType(.phonePad)
+                        .frame(width:250, height:200)
+                    
+                    Button(action: {print(self.text)}) {
+                        Text("text")
+                    }
+                    */
                 }
     
             }

@@ -4,7 +4,7 @@ import SwiftUI
 
 extension ContentView_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/calcBPMMetronome/calcBPMMetronome/ContentView.swift", line: 108)
+        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/calcBPMMetronome/calcBPMMetronome/ContentView.swift", line: 117)
         AnyView(__designTimeSelection(ContentView(), "#9607.[3].[0].property.[0].[0]"))
 #sourceLocation()
     }
@@ -12,7 +12,7 @@ extension ContentView_Previews {
 
 extension ContentView {
     @_dynamicReplacement(for: calcQuarterNotes(BPM:Notes:)) private func __preview__calcQuarterNotes(BPM: String, Notes: String)-> String {
-        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/calcBPMMetronome/calcBPMMetronome/ContentView.swift", line: 86)
+        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/calcBPMMetronome/calcBPMMetronome/ContentView.swift", line: 95)
         guard var bpm = Int(BPM) else { return "false" }
         guard var notes = Int(Notes) else { return "false" }
         if notes % 12 == 0{
@@ -36,7 +36,7 @@ extension ContentView {
 
 extension ContentView {
     @_dynamicReplacement(for: BPMIntCheck(BPM:)) private func __preview__BPMIntCheck(BPM: String)-> Bool {
-        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/calcBPMMetronome/calcBPMMetronome/ContentView.swift", line: 79)
+        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/calcBPMMetronome/calcBPMMetronome/ContentView.swift", line: 88)
         guard let bpm = Int(BPM) else{
             return false
         }
@@ -47,7 +47,7 @@ extension ContentView {
 
 extension ContentView {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
-        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/calcBPMMetronome/calcBPMMetronome/ContentView.swift", line: 30)
+        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/calcBPMMetronome/calcBPMMetronome/ContentView.swift", line: 31)
         AnyView(__designTimeSelection(ZStack {
             __designTimeSelection(Color.white.onTapGesture {
                 __designTimeSelection(UIApplication.shared.endEditting(), "#9607.[2].[8].property.[0].[0].arg[0].value.[0].modifier[0].arg[0].value.[0]")
@@ -83,14 +83,22 @@ extension ContentView {
                     }) {
                         __designTimeSelection(Text(__designTimeString("#9607.[2].[8].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[3].arg[1].value.[0].arg[0].value.[0].value", fallback: "換算後のBPMを再生")), "#9607.[2].[8].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[3].arg[1].value.[0]")
                     }, "#9607.[2].[8].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[3]")
-                        __designTimeSelection(MultilineTextView(text: __designTimeSelection($text, "#9607.[2].[8].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[4].arg[0].value"))
-                            .frame(height:__designTimeInteger("#9607.[2].[8].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[4].modifier[0].arg[0].value", fallback: 250))
-                            .keyboardType(.numberPad), "#9607.[2].[8].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[0].[4]")
+                        
                 }
                 else{
                     __designTimeSelection(Text(__designTimeString("#9607.[2].[8].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[1].[0].arg[0].value.[0].value", fallback: "BPMは10〜1000を入力してください"))
                         .foregroundColor(.red)
                         .font(.headline), "#9607.[2].[8].property.[0].[0].arg[0].value.[1].arg[0].value.[3].[1].[0]")
+                    
+                    /*
+                    MultilineTextView(text: $text)
+                        .keyboardType(.phonePad)
+                        .frame(width:250, height:200)
+                    
+                    Button(action: {print(self.text)}) {
+                        Text("text")
+                    }
+                    */
                 }
     
             }, "#9607.[2].[8].property.[0].[0].arg[0].value.[1]")

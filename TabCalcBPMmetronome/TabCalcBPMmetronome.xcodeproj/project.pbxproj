@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E17EC7392427CB8A00E7F305 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17EC7382427CB8A00E7F305 /* AppDelegate.swift */; };
+		E17EC73B2427CB8A00E7F305 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17EC73A2427CB8A00E7F305 /* SceneDelegate.swift */; };
+		E17EC73D2427CB8A00E7F305 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17EC73C2427CB8A00E7F305 /* ContentView.swift */; };
+		E17EC73F2427CB9100E7F305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17EC73E2427CB9100E7F305 /* Assets.xcassets */; };
+		E17EC7422427CB9100E7F305 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17EC7412427CB9100E7F305 /* Preview Assets.xcassets */; };
+		E17EC7452427CB9100E7F305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17EC7432427CB9100E7F305 /* LaunchScreen.storyboard */; };
+		E17EC7502427CB9100E7F305 /* TabCalcBPMmetronomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17EC74F2427CB9100E7F305 /* TabCalcBPMmetronomeTests.swift */; };
+		E17EC75B2427CBF300E7F305 /* CalcMetronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17EC75A2427CBF300E7F305 /* CalcMetronome.swift */; };
+		E17EC75D2427CC8000E7F305 /* audioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17EC75C2427CC8000E7F305 /* audioPlayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E17EC74C2427CB9100E7F305 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E17EC72D2427CB8A00E7F305 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E17EC7342427CB8A00E7F305;
+			remoteInfo = TabCalcBPMmetronome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E17EC7352427CB8A00E7F305 /* TabCalcBPMmetronome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabCalcBPMmetronome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17EC7382427CB8A00E7F305 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E17EC73A2427CB8A00E7F305 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E17EC73C2427CB8A00E7F305 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E17EC73E2427CB9100E7F305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E17EC7412427CB9100E7F305 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E17EC7442427CB9100E7F305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E17EC7462427CB9100E7F305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E17EC74B2427CB9100E7F305 /* TabCalcBPMmetronomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabCalcBPMmetronomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17EC74F2427CB9100E7F305 /* TabCalcBPMmetronomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCalcBPMmetronomeTests.swift; sourceTree = "<group>"; };
+		E17EC7512427CB9100E7F305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E17EC75A2427CBF300E7F305 /* CalcMetronome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcMetronome.swift; sourceTree = "<group>"; };
+		E17EC75C2427CC8000E7F305 /* audioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audioPlayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E17EC7322427CB8A00E7F305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17EC7482427CB9100E7F305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E17EC72C2427CB8A00E7F305 = {
+			isa = PBXGroup;
+			children = (
+				E17EC7372427CB8A00E7F305 /* TabCalcBPMmetronome */,
+				E17EC74E2427CB9100E7F305 /* TabCalcBPMmetronomeTests */,
+				E17EC7362427CB8A00E7F305 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E17EC7362427CB8A00E7F305 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E17EC7352427CB8A00E7F305 /* TabCalcBPMmetronome.app */,
+				E17EC74B2427CB9100E7F305 /* TabCalcBPMmetronomeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E17EC7372427CB8A00E7F305 /* TabCalcBPMmetronome */ = {
+			isa = PBXGroup;
+			children = (
+				E17EC75A2427CBF300E7F305 /* CalcMetronome.swift */,
+				E17EC75C2427CC8000E7F305 /* audioPlayer.swift */,
+				E17EC7382427CB8A00E7F305 /* AppDelegate.swift */,
+				E17EC73A2427CB8A00E7F305 /* SceneDelegate.swift */,
+				E17EC73C2427CB8A00E7F305 /* ContentView.swift */,
+				E17EC73E2427CB9100E7F305 /* Assets.xcassets */,
+				E17EC7432427CB9100E7F305 /* LaunchScreen.storyboard */,
+				E17EC7462427CB9100E7F305 /* Info.plist */,
+				E17EC7402427CB9100E7F305 /* Preview Content */,
+			);
+			path = TabCalcBPMmetronome;
+			sourceTree = "<group>";
+		};
+		E17EC7402427CB9100E7F305 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E17EC7412427CB9100E7F305 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E17EC74E2427CB9100E7F305 /* TabCalcBPMmetronomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E17EC74F2427CB9100E7F305 /* TabCalcBPMmetronomeTests.swift */,
+				E17EC7512427CB9100E7F305 /* Info.plist */,
+			);
+			path = TabCalcBPMmetronomeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E17EC7342427CB8A00E7F305 /* TabCalcBPMmetronome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17EC7542427CB9100E7F305 /* Build configuration list for PBXNativeTarget "TabCalcBPMmetronome" */;
+			buildPhases = (
+				E17EC7312427CB8A00E7F305 /* Sources */,
+				E17EC7322427CB8A00E7F305 /* Frameworks */,
+				E17EC7332427CB8A00E7F305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabCalcBPMmetronome;
+			productName = TabCalcBPMmetronome;
+			productReference = E17EC7352427CB8A00E7F305 /* TabCalcBPMmetronome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E17EC74A2427CB9100E7F305 /* TabCalcBPMmetronomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17EC7572427CB9100E7F305 /* Build configuration list for PBXNativeTarget "TabCalcBPMmetronomeTests" */;
+			buildPhases = (
+				E17EC7472427CB9100E7F305 /* Sources */,
+				E17EC7482427CB9100E7F305 /* Frameworks */,
+				E17EC7492427CB9100E7F305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E17EC74D2427CB9100E7F305 /* PBXTargetDependency */,
+			);
+			name = TabCalcBPMmetronomeTests;
+			productName = TabCalcBPMmetronomeTests;
+			productReference = E17EC74B2427CB9100E7F305 /* TabCalcBPMmetronomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E17EC72D2427CB8A00E7F305 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = akrolayer;
+				TargetAttributes = {
+					E17EC7342427CB8A00E7F305 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					E17EC74A2427CB9100E7F305 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E17EC7342427CB8A00E7F305;
+					};
+				};
+			};
+			buildConfigurationList = E17EC7302427CB8A00E7F305 /* Build configuration list for PBXProject "TabCalcBPMmetronome" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E17EC72C2427CB8A00E7F305;
+			productRefGroup = E17EC7362427CB8A00E7F305 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E17EC7342427CB8A00E7F305 /* TabCalcBPMmetronome */,
+				E17EC74A2427CB9100E7F305 /* TabCalcBPMmetronomeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E17EC7332427CB8A00E7F305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17EC7452427CB9100E7F305 /* LaunchScreen.storyboard in Resources */,
+				E17EC7422427CB9100E7F305 /* Preview Assets.xcassets in Resources */,
+				E17EC73F2427CB9100E7F305 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17EC7492427CB9100E7F305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E17EC7312427CB8A00E7F305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17EC7392427CB8A00E7F305 /* AppDelegate.swift in Sources */,
+				E17EC73B2427CB8A00E7F305 /* SceneDelegate.swift in Sources */,
+				E17EC75D2427CC8000E7F305 /* audioPlayer.swift in Sources */,
+				E17EC73D2427CB8A00E7F305 /* ContentView.swift in Sources */,
+				E17EC75B2427CBF300E7F305 /* CalcMetronome.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17EC7472427CB9100E7F305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17EC7502427CB9100E7F305 /* TabCalcBPMmetronomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E17EC74D2427CB9100E7F305 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E17EC7342427CB8A00E7F305 /* TabCalcBPMmetronome */;
+			targetProxy = E17EC74C2427CB9100E7F305 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E17EC7432427CB9100E7F305 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E17EC7442427CB9100E7F305 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E17EC7522427CB9100E7F305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E17EC7532427CB9100E7F305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E17EC7552427CB9100E7F305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TabCalcBPMmetronome/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TabCalcBPMmetronome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TabCalcBPMmetronome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E17EC7562427CB9100E7F305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TabCalcBPMmetronome/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TabCalcBPMmetronome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TabCalcBPMmetronome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E17EC7582427CB9100E7F305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TabCalcBPMmetronomeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TabCalcBPMmetronomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabCalcBPMmetronome.app/TabCalcBPMmetronome";
+			};
+			name = Debug;
+		};
+		E17EC7592427CB9100E7F305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TabCalcBPMmetronomeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TabCalcBPMmetronomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabCalcBPMmetronome.app/TabCalcBPMmetronome";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E17EC7302427CB8A00E7F305 /* Build configuration list for PBXProject "TabCalcBPMmetronome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17EC7522427CB9100E7F305 /* Debug */,
+				E17EC7532427CB9100E7F305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E17EC7542427CB9100E7F305 /* Build configuration list for PBXNativeTarget "TabCalcBPMmetronome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17EC7552427CB9100E7F305 /* Debug */,
+				E17EC7562427CB9100E7F305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E17EC7572427CB9100E7F305 /* Build configuration list for PBXNativeTarget "TabCalcBPMmetronomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17EC7582427CB9100E7F305 /* Debug */,
+				E17EC7592427CB9100E7F305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E17EC72D2427CB8A00E7F305 /* Project object */;
+}

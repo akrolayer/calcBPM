@@ -84,6 +84,7 @@ depends-member:
 - ["16calcBPMMetronome11ContentViewV", "$Notes"]
 - ["16calcBPMMetronome11ContentViewV", "$PlayCount"]
 - ["16calcBPMMetronome11ContentViewV", "$audioPlayer"]
+- ["16calcBPMMetronome11ContentViewV", "$text"]
 - ["16calcBPMMetronome11ContentViewV", "AudioPlayer"]
 - ["16calcBPMMetronome11ContentViewV", "BPM"]
 - ["16calcBPMMetronome11ContentViewV", "BPMIntCheck"]
@@ -116,12 +117,14 @@ depends-member:
 - !private ["16calcBPMMetronome11ContentViewV", "_audioPlayer"]
 - ["16calcBPMMetronome11ContentViewV", "_makeView"]
 - ["16calcBPMMetronome11ContentViewV", "_makeViewList"]
+- !private ["16calcBPMMetronome11ContentViewV", "_text"]
 - ["16calcBPMMetronome11ContentViewV", "audioPlayer"]
 - ["16calcBPMMetronome11ContentViewV", "body"]
 - ["16calcBPMMetronome11ContentViewV", "calcQuarterNotes"]
 - ["16calcBPMMetronome11ContentViewV", "deinit"]
 - ["16calcBPMMetronome11ContentViewV", "init"]
 - ["16calcBPMMetronome11ContentViewV", "isError"]
+- ["16calcBPMMetronome11ContentViewV", "text"]
 - !private ["16calcBPMMetronome20ContentView_PreviewsV", "ContentView"]
 - ["16calcBPMMetronome20ContentView_PreviewsV", "Previews"]
 - ["16calcBPMMetronome20ContentView_PreviewsV", "View"]
@@ -595,4 +598,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "8777b197a6718a90dc073efb64f7b6aa"
+interface-hash: "71cab8d97fed2c52cbf2a724a7b8506c"

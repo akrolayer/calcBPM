@@ -49,6 +49,7 @@ depends-top-level:
 - !private "VStack"
 - "View"
 - !private "ZStack"
+- !private "print"
 depends-member:
 - !private ["s18AdditiveArithmeticP", "init"]
 - !private ["Sa", "count"]
@@ -126,6 +127,7 @@ depends-member:
 - ["16calcBPMMetronome11ContentViewV", "deinit"]
 - ["16calcBPMMetronome11ContentViewV", "init"]
 - ["16calcBPMMetronome11ContentViewV", "isError"]
+- !private ["16calcBPMMetronome11ContentViewV", "print"]
 - ["16calcBPMMetronome11ContentViewV", "text"]
 - !private ["16calcBPMMetronome20ContentView_PreviewsV", "ContentView"]
 - ["16calcBPMMetronome20ContentView_PreviewsV", "Previews"]
@@ -260,6 +262,7 @@ depends-member:
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["16calcBPMMetronome17MultilineTextViewV", "deinit"]
+- !private ["16calcBPMMetronome17MultilineTextViewV", "frame"]
 - !private ["16calcBPMMetronome17MultilineTextViewV", "init"]
 - !private ["SM", "count"]
 - !private ["SM", "subscript"]
@@ -356,6 +359,7 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "resignFirstResponder"]
 - !private ["So23UIUserActivityRestoringP", "sendAction"]
 - !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["7SwiftUI19UIViewRepresentableP", "frame"]
 - !private ["7SwiftUI19UIViewRepresentableP", "init"]
 - !private ["7SwiftUI6VStackV", "init"]
 - !private ["7SwiftUI4ViewP", "$BPM"]
@@ -398,7 +402,9 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "keyboardType"]
 - !private ["7SwiftUI4ViewP", "largeTitle"]
 - !private ["7SwiftUI4ViewP", "onTapGesture"]
+- !private ["7SwiftUI4ViewP", "print"]
 - !private ["7SwiftUI4ViewP", "red"]
+- !private ["7SwiftUI4ViewP", "text"]
 - !private ["7SwiftUI4ViewP", "textFieldStyle"]
 - !private ["7SwiftUI4ViewP", "title"]
 - !private ["7SwiftUI4ViewP", "white"]

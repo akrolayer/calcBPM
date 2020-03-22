@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7F0F33DD9DAD06B17BAC9905383C003D75EA506C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7F0F33DD9DAD06B17BAC9905383C003D75EA506C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4BF2EB7C-AF46-4E1D-8CEF-9C0B735A4B00",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7F0F33DD9DAD06B17BAC9905383C003D75EA506C" : "CalcBPMMetronome\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TabCalcBPMmetronome",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TabCalcBPMmetronome\/TabCalcBPMmetronome.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git@github.com:akrolayer\/calcBPM.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7F0F33DD9DAD06B17BAC9905383C003D75EA506C"
+    }
+  ]
+}
