@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>E16E21BD-626A-4EE5-9207-A573CD847DDC</key>
+		<key>10971661-3F8E-46FB-A64A-9A627893F495</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,13 +15,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>E16E21BD-626A-4EE5-9207-A573CD847DDC.xcactivitylog</string>
+			<string>10971661-3F8E-46FB-A64A-9A627893F495.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>E</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>TabCalcBPMmetronome project</string>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Preview TabCalcBPMmetronome</string>
 			<key>timeStartedRecording</key>
-			<real>606588078.12325895</real>
+			<real>606669121.23356998</real>
 			<key>timeStoppedRecording</key>
-			<real>606588090.30718005</real>
+			<real>606669124.35309303</real>
 			<key>title</key>
 			<string>Preview TabCalcBPMmetronome</string>
 			<key>uniqueIdentifier</key>
-			<string>E16E21BD-626A-4EE5-9207-A573CD847DDC</string>
+			<string>10971661-3F8E-46FB-A64A-9A627893F495</string>
 		</dict>
-		<key>FB34C500-8C75-4747-90FE-966DFAB2047B</key>
+		<key>1774A551-7B2F-4546-B531-8E7907F25928</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -49,7 +49,41 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>FB34C500-8C75-4747-90FE-966DFAB2047B.xcactivitylog</string>
+			<string>1774A551-7B2F-4546-B531-8E7907F25928.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TabCalcBPMmetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TabCalcBPMmetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build TabCalcBPMmetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606671329.22277498</real>
+			<key>timeStoppedRecording</key>
+			<real>606671340.95769799</real>
+			<key>title</key>
+			<string>Build TabCalcBPMmetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>1774A551-7B2F-4546-B531-8E7907F25928</string>
+		</dict>
+		<key>187A299A-B117-494D-AF7A-2C7409969E67</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>187A299A-B117-494D-AF7A-2C7409969E67.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,13 +100,353 @@
 			<key>signature</key>
 			<string>Preview TabCalcBPMmetronome</string>
 			<key>timeStartedRecording</key>
-			<real>606590224.25822306</real>
+			<real>606671304.50945497</real>
 			<key>timeStoppedRecording</key>
-			<real>606590234.88598001</real>
+			<real>606671308.023893</real>
 			<key>title</key>
 			<string>Preview TabCalcBPMmetronome</string>
 			<key>uniqueIdentifier</key>
-			<string>FB34C500-8C75-4747-90FE-966DFAB2047B</string>
+			<string>187A299A-B117-494D-AF7A-2C7409969E67</string>
+		</dict>
+		<key>33E78FF6-E1BC-424A-A92B-B67F87396EF6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>33E78FF6-E1BC-424A-A92B-B67F87396EF6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TabCalcBPMmetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TabCalcBPMmetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build TabCalcBPMmetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606669802.10063899</real>
+			<key>timeStoppedRecording</key>
+			<real>606669814.71741605</real>
+			<key>title</key>
+			<string>Build TabCalcBPMmetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>33E78FF6-E1BC-424A-A92B-B67F87396EF6</string>
+		</dict>
+		<key>40A78D6C-F789-4A03-B393-97D3E89FE283</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>40A78D6C-F789-4A03-B393-97D3E89FE283.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TabCalcBPMmetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TabCalcBPMmetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606669013.54768205</real>
+			<key>timeStoppedRecording</key>
+			<real>606669015.88431501</real>
+			<key>title</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>40A78D6C-F789-4A03-B393-97D3E89FE283</string>
+		</dict>
+		<key>511785F5-6706-4039-AD0A-FC0A26978DAB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>511785F5-6706-4039-AD0A-FC0A26978DAB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TabCalcBPMmetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TabCalcBPMmetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606671986.48723698</real>
+			<key>timeStoppedRecording</key>
+			<real>606671996.02727604</real>
+			<key>title</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>511785F5-6706-4039-AD0A-FC0A26978DAB</string>
+		</dict>
+		<key>6CF0C2D5-E4FB-4821-BA69-03A9823D1599</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6CF0C2D5-E4FB-4821-BA69-03A9823D1599.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TabCalcBPMmetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TabCalcBPMmetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606665382.77907205</real>
+			<key>timeStoppedRecording</key>
+			<real>606665382.92688406</real>
+			<key>title</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>6CF0C2D5-E4FB-4821-BA69-03A9823D1599</string>
+		</dict>
+		<key>74124C5D-E741-4B15-B698-4F9D55ADBC2F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>74124C5D-E741-4B15-B698-4F9D55ADBC2F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TabCalcBPMmetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TabCalcBPMmetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606669424.40223897</real>
+			<key>timeStoppedRecording</key>
+			<real>606669428.21477401</real>
+			<key>title</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>74124C5D-E741-4B15-B698-4F9D55ADBC2F</string>
+		</dict>
+		<key>77F35EA4-8B63-4BAA-BDE7-9C65EACD58F4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>77F35EA4-8B63-4BAA-BDE7-9C65EACD58F4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TabCalcBPMmetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TabCalcBPMmetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606671679.08800197</real>
+			<key>timeStoppedRecording</key>
+			<real>606671689.94395399</real>
+			<key>title</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>77F35EA4-8B63-4BAA-BDE7-9C65EACD58F4</string>
+		</dict>
+		<key>79426F93-F3C0-474C-A29F-661DB9CF49EB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>79426F93-F3C0-474C-A29F-661DB9CF49EB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TabCalcBPMmetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TabCalcBPMmetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606669302.87478602</real>
+			<key>timeStoppedRecording</key>
+			<real>606669315.99796796</real>
+			<key>title</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>79426F93-F3C0-474C-A29F-661DB9CF49EB</string>
+		</dict>
+		<key>8A8156A3-F2E2-462E-808B-EFDF3EF1FC28</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8A8156A3-F2E2-462E-808B-EFDF3EF1FC28.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TabCalcBPMmetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TabCalcBPMmetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606670191.36777306</real>
+			<key>timeStoppedRecording</key>
+			<real>606670204.10606301</real>
+			<key>title</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>8A8156A3-F2E2-462E-808B-EFDF3EF1FC28</string>
+		</dict>
+		<key>9C458BD1-80C9-4758-9E64-5AF514C351EF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9C458BD1-80C9-4758-9E64-5AF514C351EF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TabCalcBPMmetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TabCalcBPMmetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606665355.56583703</real>
+			<key>timeStoppedRecording</key>
+			<real>606665359.71554399</real>
+			<key>title</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>9C458BD1-80C9-4758-9E64-5AF514C351EF</string>
+		</dict>
+		<key>D5CDFE62-3448-4DAF-A0AC-67BC987633E0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D5CDFE62-3448-4DAF-A0AC-67BC987633E0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TabCalcBPMmetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TabCalcBPMmetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606670889.10015404</real>
+			<key>timeStoppedRecording</key>
+			<real>606670892.04897904</real>
+			<key>title</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>D5CDFE62-3448-4DAF-A0AC-67BC987633E0</string>
 		</dict>
 	</dict>
 </dict>

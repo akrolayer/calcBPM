@@ -16,6 +16,10 @@
 		E17EC7502427CB9100E7F305 /* TabCalcBPMmetronomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17EC74F2427CB9100E7F305 /* TabCalcBPMmetronomeTests.swift */; };
 		E17EC75B2427CBF300E7F305 /* CalcMetronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17EC75A2427CBF300E7F305 /* CalcMetronome.swift */; };
 		E17EC75D2427CC8000E7F305 /* audioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17EC75C2427CC8000E7F305 /* audioPlayer.swift */; };
+		E17EC75F2428F18C00E7F305 /* PlayMetronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17EC75E2428F18C00E7F305 /* PlayMetronome.swift */; };
+		E17EC7612428F6AC00E7F305 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17EC7602428F6AC00E7F305 /* Library.swift */; };
+		E17EC763242909B400E7F305 /* MultiLineTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17EC762242909B400E7F305 /* MultiLineTextView.swift */; };
+		E17EC7652429146F00E7F305 /* clap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E17EC7642429146E00E7F305 /* clap.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,10 @@
 		E17EC7512427CB9100E7F305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E17EC75A2427CBF300E7F305 /* CalcMetronome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcMetronome.swift; sourceTree = "<group>"; };
 		E17EC75C2427CC8000E7F305 /* audioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audioPlayer.swift; sourceTree = "<group>"; };
+		E17EC75E2428F18C00E7F305 /* PlayMetronome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayMetronome.swift; sourceTree = "<group>"; };
+		E17EC7602428F6AC00E7F305 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		E17EC762242909B400E7F305 /* MultiLineTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiLineTextView.swift; sourceTree = "<group>"; };
+		E17EC7642429146E00E7F305 /* clap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = clap.mp3; path = ../../calcBPMMetronome/calcBPMMetronome/clap.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,11 +92,15 @@
 			isa = PBXGroup;
 			children = (
 				E17EC75A2427CBF300E7F305 /* CalcMetronome.swift */,
+				E17EC7602428F6AC00E7F305 /* Library.swift */,
 				E17EC75C2427CC8000E7F305 /* audioPlayer.swift */,
 				E17EC7382427CB8A00E7F305 /* AppDelegate.swift */,
 				E17EC73A2427CB8A00E7F305 /* SceneDelegate.swift */,
 				E17EC73C2427CB8A00E7F305 /* ContentView.swift */,
+				E17EC75E2428F18C00E7F305 /* PlayMetronome.swift */,
+				E17EC762242909B400E7F305 /* MultiLineTextView.swift */,
 				E17EC73E2427CB9100E7F305 /* Assets.xcassets */,
+				E17EC7642429146E00E7F305 /* clap.mp3 */,
 				E17EC7432427CB9100E7F305 /* LaunchScreen.storyboard */,
 				E17EC7462427CB9100E7F305 /* Info.plist */,
 				E17EC7402427CB9100E7F305 /* Preview Content */,
@@ -196,6 +208,7 @@
 			files = (
 				E17EC7452427CB9100E7F305 /* LaunchScreen.storyboard in Resources */,
 				E17EC7422427CB9100E7F305 /* Preview Assets.xcassets in Resources */,
+				E17EC7652429146F00E7F305 /* clap.mp3 in Resources */,
 				E17EC73F2427CB9100E7F305 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,8 +228,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E17EC7392427CB8A00E7F305 /* AppDelegate.swift in Sources */,
+				E17EC7612428F6AC00E7F305 /* Library.swift in Sources */,
 				E17EC73B2427CB8A00E7F305 /* SceneDelegate.swift in Sources */,
+				E17EC75F2428F18C00E7F305 /* PlayMetronome.swift in Sources */,
 				E17EC75D2427CC8000E7F305 /* audioPlayer.swift in Sources */,
+				E17EC763242909B400E7F305 /* MultiLineTextView.swift in Sources */,
 				E17EC73D2427CB8A00E7F305 /* ContentView.swift in Sources */,
 				E17EC75B2427CBF300E7F305 /* CalcMetronome.swift in Sources */,
 			);

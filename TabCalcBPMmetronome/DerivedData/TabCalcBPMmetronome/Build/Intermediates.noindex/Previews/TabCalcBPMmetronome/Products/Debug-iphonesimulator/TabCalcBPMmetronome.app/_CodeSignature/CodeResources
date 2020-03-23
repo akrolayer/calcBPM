@@ -10,7 +10,7 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		7fnsHAH7rEvfmexRrtKqreM0efg=
+		MHnnUlc0aMX3BR2U58cihRgqeao=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		8uEGx3em6ITxGUxkh3aFlVABZok=
+		c4OfIWb/c1MVF2N4f2XiB8flvP0=
 		</data>
 		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
 		<data>
@@ -89,6 +89,10 @@
 		<data>
 		HBCg+UhBNiweLfQy4+p+nPnqCCU=
 		</data>
+		<key>clap.mp3</key>
+		<data>
+		KjGW4SxaC5wykpczvg81lmRU0K0=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -103,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rVBweX9Cf1g42ehkxFe6b3b8YWeUaEdIqegLHWnLyko=
+			e4JXdtywBrD5EuDC6k6DjeUfwUbk4+EpiF+m1KwUnY0=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -117,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sm1wnDhzt1Lxkj28mZ8ZyJa9Tm9dL7Km0NGsjomhaZU=
+			AX+9qOAvKbfpChvif1UiiYBoJYSZml7x2N8bRsLve+M=
 			</data>
 		</dict>
 		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
@@ -218,6 +222,13 @@
 			<key>hash2</key>
 			<data>
 			iYIekNPJeq55GuHruxW5AwJJ+Qf4GUdoZ2oOEy9fSfw=
+			</data>
+		</dict>
+		<key>clap.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZwjZckCfnWui22MDS7af3EB/pnpo1YozNDIVXffrKXk=
 			</data>
 		</dict>
 	</dict>

@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>91E92446-E6B6-4D71-9F79-12418AAC3CC6</key>
+		<key>1131004B-0E85-4F93-95DF-5BC8713ED6F1</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
 			<key>fileName</key>
-			<string>91E92446-E6B6-4D71-9F79-12418AAC3CC6.xcactivitylog</string>
+			<string>1131004B-0E85-4F93-95DF-5BC8713ED6F1.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,15 +26,15 @@
 			<key>signature</key>
 			<string>calcBPMMetronomeTests-hcftljnwdrgsuafxujjjqmnlzafu</string>
 			<key>timeStartedRecording</key>
-			<real>606586667.97653902</real>
+			<real>606671765.57768202</real>
 			<key>timeStoppedRecording</key>
-			<real>606586675.02813196</real>
+			<real>606671766.65845597</real>
 			<key>title</key>
 			<string>Build target calcBPMMetronomeTests</string>
 			<key>uniqueIdentifier</key>
-			<string>91E92446-E6B6-4D71-9F79-12418AAC3CC6</string>
+			<string>1131004B-0E85-4F93-95DF-5BC8713ED6F1</string>
 		</dict>
-		<key>A2E3821A-D542-486E-A68E-23AFE6834A9C</key>
+		<key>280B0A4F-7A6B-480B-9B20-819A52A47FE1</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,7 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>A2E3821A-D542-486E-A68E-23AFE6834A9C.xcactivitylog</string>
+			<string>280B0A4F-7A6B-480B-9B20-819A52A47FE1.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,13 +54,13 @@
 			<key>signature</key>
 			<string>calcBPMMetronome-hcftljnwdrgsuafxujjjqmnlzafu</string>
 			<key>timeStartedRecording</key>
-			<real>606586618.96783805</real>
+			<real>606671759.61575401</real>
 			<key>timeStoppedRecording</key>
-			<real>606586667.96310306</real>
+			<real>606671765.57504499</real>
 			<key>title</key>
 			<string>Build target calcBPMMetronome</string>
 			<key>uniqueIdentifier</key>
-			<string>A2E3821A-D542-486E-A68E-23AFE6834A9C</string>
+			<string>280B0A4F-7A6B-480B-9B20-819A52A47FE1</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

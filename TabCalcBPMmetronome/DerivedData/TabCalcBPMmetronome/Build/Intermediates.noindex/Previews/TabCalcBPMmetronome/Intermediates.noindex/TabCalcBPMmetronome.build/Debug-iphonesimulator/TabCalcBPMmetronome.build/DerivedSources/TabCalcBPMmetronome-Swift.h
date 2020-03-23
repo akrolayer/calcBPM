@@ -229,6 +229,8 @@ SWIFT_CLASS("_TtC19TabCalcBPMmetronome13SceneDelegate")
 
 
 
+
+
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
 #endif
