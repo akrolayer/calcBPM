@@ -21,8 +21,7 @@ struct ContentView: View {
                     }
                 }
                 .tag(0)
-            Text("Second View")
-                .font(.title)
+            PlayMetronome()
                 .tabItem {
                     VStack {
                         Image("second")

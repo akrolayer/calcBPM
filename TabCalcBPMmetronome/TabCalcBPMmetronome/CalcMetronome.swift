@@ -26,6 +26,7 @@ struct CalcMetronome: View {
     let NotesList = ["4", "8", "12", "16", "24", "32", "48", "64"]
     var isError: Bool = true
     @ObservedObject var audioPlayer = AudioPlayer()
+    @ObservedObject var library = Library()
     
     var body: some View {
         ZStack {
@@ -42,13 +43,13 @@ struct CalcMetronome: View {
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .keyboardType(.numberPad)
                         .frame(width: 250)
-                    if BPMIntCheck(BPM: BPM){
+                    if library.BPMIntCheck(BPM: BPM){
                         Picker(selection: $Note, label: Text("何分音符ですか？")) {
                             ForEach(0..<NotesList.count){
                                     Text(self.NotesList[$0])
                             }
                         }
-                        Text("\(calcQuarterNotes(BPM: BPM, Notes: NotesList[Note]))の４分")
+                        Text("\(library.calcQuarterNotes(BPM: BPM, Notes: NotesList[Note]))の４分")
                                 .font(.headline)
                                 .foregroundColor(.green)
                         
@@ -58,7 +59,7 @@ struct CalcMetronome: View {
                         .frame(width: 250)
                         
                         Button(action: {
-                            self.audioPlayer.metronome(BPM:self.calcQuarterNotes(BPM: self.BPM, Notes: self.NotesList[self.Note]),PlayCount: self.PlayCount)
+                            self.audioPlayer.metronome(BPM:self.library.calcQuarterNotes(BPM: self.BPM, Notes: self.NotesList[self.Note]),PlayCount: self.PlayCount)
                             
                         }) {
                             Text("換算後のBPMを再生")
@@ -84,32 +85,6 @@ struct CalcMetronome: View {
                 }
             }
         }
-        func BPMIntCheck (BPM: String)-> Bool{
-            guard let bpm = Int(BPM) else{
-                return false
-            }
-            return (10...1000).contains(bpm)
-        }
-
-        func calcQuarterNotes(BPM: String, Notes: String)-> String{
-            guard var bpm = Int(BPM) else { return "false" }
-            guard var notes = Int(Notes) else { return "false" }
-            if notes % 12 == 0{
-                notes = notes / 3 * 4
-                bpm = bpm / 4 * 3
-                while(notes > 4){
-                    notes /= 2
-                    bpm *= 2
-                }
-                return String(bpm)
-            }else{
-                while(notes > 4){
-                    notes /= 2
-                    bpm *= 2
-                }
-                return String(bpm)
-            }
-    }
 }
 
 struct CalcMetronome_Previews: PreviewProvider {
