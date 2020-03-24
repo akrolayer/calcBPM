@@ -6,35 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>0D3574E9-FF2A-4DE1-BDA9-8EF7F1019152</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
-			<key>fileName</key>
-			<string>0D3574E9-FF2A-4DE1-BDA9-8EF7F1019152.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>TabCalcBPMmetronomeTests-bzaawvpwhbcotbgvmloligbzomuv</string>
-			<key>timeStartedRecording</key>
-			<real>606671689.48156595</real>
-			<key>timeStoppedRecording</key>
-			<real>606671689.93137896</real>
-			<key>title</key>
-			<string>Build target TabCalcBPMmetronomeTests</string>
-			<key>uniqueIdentifier</key>
-			<string>0D3574E9-FF2A-4DE1-BDA9-8EF7F1019152</string>
-		</dict>
-		<key>386E62EE-0F71-45B9-B38D-B06638D1D91D</key>
+		<key>51F68BF5-46F9-4A2E-895E-41BEE8922B1E</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>386E62EE-0F71-45B9-B38D-B06638D1D91D.xcactivitylog</string>
+			<string>51F68BF5-46F9-4A2E-895E-41BEE8922B1E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,13 +26,41 @@
 			<key>signature</key>
 			<string>TabCalcBPMmetronome-bzaawvpwhbcotbgvmloligbzomuv</string>
 			<key>timeStartedRecording</key>
-			<real>606671986.70527995</real>
+			<real>606764346.18609202</real>
 			<key>timeStoppedRecording</key>
-			<real>606671996.00430405</real>
+			<real>606764349.16669905</real>
 			<key>title</key>
 			<string>Build target TabCalcBPMmetronome</string>
 			<key>uniqueIdentifier</key>
-			<string>386E62EE-0F71-45B9-B38D-B06638D1D91D</string>
+			<string>51F68BF5-46F9-4A2E-895E-41BEE8922B1E</string>
+		</dict>
+		<key>7CB98C80-A88A-4B45-ADBA-E48B002DC908</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
+			<key>fileName</key>
+			<string>7CB98C80-A88A-4B45-ADBA-E48B002DC908.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>TabCalcBPMmetronomeTests-bzaawvpwhbcotbgvmloligbzomuv</string>
+			<key>timeStartedRecording</key>
+			<real>606764349.16878295</real>
+			<key>timeStoppedRecording</key>
+			<real>606764350.40707195</real>
+			<key>title</key>
+			<string>Build target TabCalcBPMmetronomeTests</string>
+			<key>uniqueIdentifier</key>
+			<string>7CB98C80-A88A-4B45-ADBA-E48B002DC908</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

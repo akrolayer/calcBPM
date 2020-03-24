@@ -1,9 +1,10 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "BPMIntCheck"
-- "calcQuarterNotes"
+- "Library"
 provides-nominal:
+- "19TabCalcBPMmetronome7LibraryC"
 provides-member:
+- ["19TabCalcBPMmetronome7LibraryC", ""]
 provides-dynamic-lookup:
 depends-top-level:
 - !private "%"
@@ -15,15 +16,15 @@ depends-top-level:
 - !private "=="
 - !private ">"
 - "AssignmentPrecedence"
-- "BPMIntCheck"
 - "Bool"
 - !private "BooleanLiteralType"
 - !private "FloatLiteralType"
 - !private "Int"
 - !private "IntegerLiteralType"
+- "Library"
+- "ObservableObject"
 - "String"
 - !private "StringLiteralType"
-- "calcQuarterNotes"
 depends-member:
 - !private ["s18AdditiveArithmeticP", "init"]
 - !private ["SK", "contains"]
@@ -55,9 +56,25 @@ depends-member:
 - !private ["SH", "contains"]
 - !private ["SH", "init"]
 - !private ["Si", "init"]
+- ["19TabCalcBPMmetronome7LibraryC", "BPMIntCheck"]
+- ["19TabCalcBPMmetronome7LibraryC", "Bool"]
+- !private ["19TabCalcBPMmetronome7LibraryC", "Int"]
+- ["19TabCalcBPMmetronome7LibraryC", "ObjectWillChangePublisher"]
+- ["19TabCalcBPMmetronome7LibraryC", "String"]
+- ["19TabCalcBPMmetronome7LibraryC", "_Default_ObjectWillChangePublisher"]
+- ["19TabCalcBPMmetronome7LibraryC", "calcQuarterNotes"]
+- ["19TabCalcBPMmetronome7LibraryC", "deinit"]
+- ["19TabCalcBPMmetronome7LibraryC", "init"]
+- ["19TabCalcBPMmetronome7LibraryC", "objectWillChange"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["Sj", "init"]
+- !private ["7Combine16ObservableObjectP", "Int"]
+- ["7Combine16ObservableObjectP", "ObjectWillChangePublisher"]
+- !private ["7Combine16ObservableObjectP", "String"]
+- ["7Combine16ObservableObjectP", ""]
+- ["7Combine16ObservableObjectP", "_Default_ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "objectWillChange"]
 - !private ["Sk", "contains"]
 - !private ["SX", "contains"]
 - !private ["Sm", "init"]
@@ -102,9 +119,11 @@ depends-nominal:
 - !private "s17FixedWidthIntegerP"
 - !private "SH"
 - !private "Si"
+- "19TabCalcBPMmetronome7LibraryC"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - !private "Sj"
+- "7Combine16ObservableObjectP"
 - !private "Sk"
 - !private "SX"
 - !private "Sm"
@@ -190,4 +209,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "342a38a92768cb65fcf5ec185abf4aad"
+interface-hash: "7f3f44b04507f40f441f8a8e7f0b32ee"

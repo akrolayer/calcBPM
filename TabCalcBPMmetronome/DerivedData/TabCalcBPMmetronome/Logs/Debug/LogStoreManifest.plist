@@ -6,40 +6,6 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>B101C70F-9061-4CD9-B8A8-547FB5196D4E</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>B101C70F-9061-4CD9-B8A8-547FB5196D4E.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>TabCalcBPMmetronome project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>TabCalcBPMmetronome</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug TabCalcBPMmetronome</string>
-			<key>timeStartedRecording</key>
-			<real>606669814.794227</real>
-			<key>timeStoppedRecording</key>
-			<real>606670065.71768999</real>
-			<key>title</key>
-			<string>Debug TabCalcBPMmetronome</string>
-			<key>uniqueIdentifier</key>
-			<string>B101C70F-9061-4CD9-B8A8-547FB5196D4E</string>
-		</dict>
 		<key>FFC61481-FF3E-4741-A0DF-26C7B8E669FD</key>
 		<dict>
 			<key>className</key>

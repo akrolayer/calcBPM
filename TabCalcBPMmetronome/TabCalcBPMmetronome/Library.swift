@@ -16,6 +16,14 @@ class Library: ObservableObject {
         return (10...1000).contains(bpm)
     }
 
+    func NoteIntCheck (Note: String)-> Bool{
+        guard let note = Int(Note) else{
+            return false
+        }
+        let NotesList = [4, 8, 12, 16, 24, 32, 48, 64]
+        return NotesList.contains(note)
+    }
+    
     func calcQuarterNotes(BPM: String, Notes: String)-> String{
         guard var bpm = Int(BPM) else { return "false" }
         guard var notes = Int(Notes) else { return "false" }

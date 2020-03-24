@@ -1,11 +1,150 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "Library"
 provides-nominal:
+- "19TabCalcBPMmetronome7LibraryC"
 provides-member:
+- ["19TabCalcBPMmetronome7LibraryC", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "%"
+- !private "*"
+- !private "*="
+- !private "..."
+- !private "/"
+- !private "/="
+- !private "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "FloatLiteralType"
+- !private "Int"
+- !private "IntegerLiteralType"
+- "Library"
+- "ObservableObject"
+- "String"
+- !private "StringLiteralType"
 depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["SK", "contains"]
+- !private ["SK", "init"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["SN", "contains"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "contains"]
+- !private ["Se", "init"]
+- !private ["SE", "contains"]
+- !private ["SE", "init"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "contains"]
+- !private ["SH", "init"]
+- !private ["Si", "init"]
+- ["19TabCalcBPMmetronome7LibraryC", "BPMIntCheck"]
+- ["19TabCalcBPMmetronome7LibraryC", "Bool"]
+- !private ["19TabCalcBPMmetronome7LibraryC", "Int"]
+- ["19TabCalcBPMmetronome7LibraryC", "ObjectWillChangePublisher"]
+- ["19TabCalcBPMmetronome7LibraryC", "String"]
+- ["19TabCalcBPMmetronome7LibraryC", "_Default_ObjectWillChangePublisher"]
+- ["19TabCalcBPMmetronome7LibraryC", "calcQuarterNotes"]
+- ["19TabCalcBPMmetronome7LibraryC", "deinit"]
+- ["19TabCalcBPMmetronome7LibraryC", "init"]
+- ["19TabCalcBPMmetronome7LibraryC", "objectWillChange"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["Sj", "init"]
+- !private ["7Combine16ObservableObjectP", "Int"]
+- ["7Combine16ObservableObjectP", "ObjectWillChangePublisher"]
+- !private ["7Combine16ObservableObjectP", "String"]
+- ["7Combine16ObservableObjectP", ""]
+- ["7Combine16ObservableObjectP", "_Default_ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "objectWillChange"]
+- !private ["Sk", "contains"]
+- !private ["SX", "contains"]
+- !private ["Sm", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "contains"]
+- !private ["ST", "init"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["7SwiftUI18_FormatSpecifiableP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
 depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "SN"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "Si"
+- "19TabCalcBPMmetronome7LibraryC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "Sj"
+- "7Combine16ObservableObjectP"
+- !private "Sk"
+- !private "SX"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "7SwiftUI18_FormatSpecifiableP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
@@ -70,4 +209,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "5bf39d8b5f0094ca83c744a0da4fb204"
+interface-hash: "7f3f44b04507f40f441f8a8e7f0b32ee"
