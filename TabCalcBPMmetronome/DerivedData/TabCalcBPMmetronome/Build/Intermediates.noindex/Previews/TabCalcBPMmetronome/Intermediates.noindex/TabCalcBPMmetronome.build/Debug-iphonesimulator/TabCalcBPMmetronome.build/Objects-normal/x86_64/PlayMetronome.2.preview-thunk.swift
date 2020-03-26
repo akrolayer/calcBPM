@@ -4,7 +4,7 @@ import SwiftUI
 
 extension PlayMetronome_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/TabCalcBPMmetronome/TabCalcBPMmetronome/PlayMetronome.swift", line: 99)
+        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/TabCalcBPMmetronome/TabCalcBPMmetronome/PlayMetronome.swift", line: 139)
         AnyView(PlayMetronome())
 #sourceLocation()
     }
@@ -12,7 +12,7 @@ extension PlayMetronome_Previews {
 
 extension PlayMetronome {
     @_dynamicReplacement(for: NoteCheck(Note:)) private func __preview__NoteCheck(Note: String) {
-        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/TabCalcBPMmetronome/TabCalcBPMmetronome/PlayMetronome.swift", line: 94)
+        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/TabCalcBPMmetronome/TabCalcBPMmetronome/PlayMetronome.swift", line: 134)
 #sourceLocation()
     }
 }
@@ -55,6 +55,42 @@ extension PlayMetronome {
                             .frame(width: __designTimeInteger("#20642.[2].[15].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[0].[1].arg[0].value.[1].modifier[2].arg[0].value", fallback: 100))
                     }
                     
+                    HStack{
+                        TextField(__designTimeString("#20642.[2].[15].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[0].[2].arg[0].value.[0].arg[0].value.[0].value", fallback: "何分音符"), text:$Note3)
+                            .textFieldStyle(RoundedBorderTextFieldStyle())
+                                .keyboardType(.numberPad)
+                                .frame(width: __designTimeInteger("#20642.[2].[15].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[0].[2].arg[0].value.[0].modifier[2].arg[0].value", fallback: 100))
+                        
+                        TextField(__designTimeString("#20642.[2].[15].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[0].[2].arg[0].value.[1].arg[0].value.[0].value", fallback: "回数"), text:$Count3)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                            .keyboardType(.numberPad)
+                            .frame(width: __designTimeInteger("#20642.[2].[15].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[0].[2].arg[0].value.[1].modifier[2].arg[0].value", fallback: 100))
+                    }
+                    
+                    HStack{
+                        TextField(__designTimeString("#20642.[2].[15].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[0].[3].arg[0].value.[0].arg[0].value.[0].value", fallback: "何分音符"), text:$Note4)
+                            .textFieldStyle(RoundedBorderTextFieldStyle())
+                                .keyboardType(.numberPad)
+                                .frame(width: __designTimeInteger("#20642.[2].[15].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[0].[3].arg[0].value.[0].modifier[2].arg[0].value", fallback: 100))
+                        
+                        TextField(__designTimeString("#20642.[2].[15].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[0].[3].arg[0].value.[1].arg[0].value.[0].value", fallback: "回数"), text:$Count4)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                            .keyboardType(.numberPad)
+                            .frame(width: __designTimeInteger("#20642.[2].[15].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[0].[3].arg[0].value.[1].modifier[2].arg[0].value", fallback: 100))
+                    }
+                    
+                    HStack{
+                        TextField(__designTimeString("#20642.[2].[15].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[0].[4].arg[0].value.[0].arg[0].value.[0].value", fallback: "何分音符"), text:$Note5)
+                            .textFieldStyle(RoundedBorderTextFieldStyle())
+                                .keyboardType(.numberPad)
+                                .frame(width: __designTimeInteger("#20642.[2].[15].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[0].[4].arg[0].value.[0].modifier[2].arg[0].value", fallback: 100))
+                        
+                        TextField(__designTimeString("#20642.[2].[15].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[0].[4].arg[0].value.[1].arg[0].value.[0].value", fallback: "回数"), text:$Count5)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                            .keyboardType(.numberPad)
+                            .frame(width: __designTimeInteger("#20642.[2].[15].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[0].[4].arg[0].value.[1].modifier[2].arg[0].value", fallback: 100))
+                    }
+                    
                     Button(action: {
                         if self.library.NoteIntCheck(Note: self.Note){ self.audioPlayer.metronome(BPM:self.library.calcQuarterNotes(BPM: self.BPMText, Notes: self.Note),PlayCount: self.Count)
                         }
@@ -62,8 +98,12 @@ extension PlayMetronome {
                         }
                         if self.library.NoteIntCheck(Note: self.Note3){ self.audioPlayer.metronome(BPM:self.library.calcQuarterNotes(BPM: self.BPMText, Notes: self.Note3),PlayCount: self.Count3)
                         }
+                        if self.library.NoteIntCheck(Note: self.Note4){ self.audioPlayer.metronome(BPM:self.library.calcQuarterNotes(BPM: self.BPMText, Notes: self.Note4),PlayCount: self.Count4)
+                        }
+                        if self.library.NoteIntCheck(Note: self.Note5){ self.audioPlayer.metronome(BPM:self.library.calcQuarterNotes(BPM: self.BPMText, Notes: self.Note5),PlayCount: self.Count5)
+                        }
                     }) {
-                        Text(__designTimeString("#20642.[2].[15].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[0].[2].arg[1].value.[0].arg[0].value.[0].value", fallback: "再生"))
+                        Text(__designTimeString("#20642.[2].[15].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[0].[5].arg[1].value.[0].arg[0].value.[0].value", fallback: "再生"))
                     }
                 }else{
                     Text(__designTimeString("#20642.[2].[15].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[1].[0].arg[0].value.[0].value", fallback: "10~1000を入力してください"))

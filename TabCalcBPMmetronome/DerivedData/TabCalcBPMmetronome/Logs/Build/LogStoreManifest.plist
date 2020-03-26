@@ -210,6 +210,40 @@
 			<key>uniqueIdentifier</key>
 			<string>A51367B5-BD0E-43CC-A8B9-B7939956A70C</string>
 		</dict>
+		<key>DE22EFBB-9A20-49AF-9E3E-4D6FEDDAABEC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DE22EFBB-9A20-49AF-9E3E-4D6FEDDAABEC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TabCalcBPMmetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TabCalcBPMmetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606928949.28568804</real>
+			<key>timeStoppedRecording</key>
+			<real>606928951.42184305</real>
+			<key>title</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>DE22EFBB-9A20-49AF-9E3E-4D6FEDDAABEC</string>
+		</dict>
 		<key>F108FE55-2A88-4739-A7D6-E83C133FC69E</key>
 		<dict>
 			<key>className</key>
@@ -243,6 +277,40 @@
 			<string>Preview TabCalcBPMmetronome</string>
 			<key>uniqueIdentifier</key>
 			<string>F108FE55-2A88-4739-A7D6-E83C133FC69E</string>
+		</dict>
+		<key>F7A2262E-36EC-4224-8E14-504D5A8CEB1C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F7A2262E-36EC-4224-8E14-504D5A8CEB1C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TabCalcBPMmetronome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TabCalcBPMmetronome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>timeStartedRecording</key>
+			<real>606928712.25528395</real>
+			<key>timeStoppedRecording</key>
+			<real>606928716.22067595</real>
+			<key>title</key>
+			<string>Preview TabCalcBPMmetronome</string>
+			<key>uniqueIdentifier</key>
+			<string>F7A2262E-36EC-4224-8E14-504D5A8CEB1C</string>
 		</dict>
 		<key>FDE4FECE-0847-40E8-B8EC-386A5A4B8FC7</key>
 		<dict>

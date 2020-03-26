@@ -71,12 +71,52 @@ struct PlayMetronome: View {
                             .frame(width: 100)
                     }
                     
+                    HStack{
+                        TextField("何分音符", text:$Note3)
+                            .textFieldStyle(RoundedBorderTextFieldStyle())
+                                .keyboardType(.numberPad)
+                                .frame(width: 100)
+                        
+                        TextField("回数", text:$Count3)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                            .keyboardType(.numberPad)
+                            .frame(width: 100)
+                    }
+                    
+                    HStack{
+                        TextField("何分音符", text:$Note4)
+                            .textFieldStyle(RoundedBorderTextFieldStyle())
+                                .keyboardType(.numberPad)
+                                .frame(width: 100)
+                        
+                        TextField("回数", text:$Count4)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                            .keyboardType(.numberPad)
+                            .frame(width: 100)
+                    }
+                    
+                    HStack{
+                        TextField("何分音符", text:$Note5)
+                            .textFieldStyle(RoundedBorderTextFieldStyle())
+                                .keyboardType(.numberPad)
+                                .frame(width: 100)
+                        
+                        TextField("回数", text:$Count5)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                            .keyboardType(.numberPad)
+                            .frame(width: 100)
+                    }
+                    
                     Button(action: {
                         if self.library.NoteIntCheck(Note: self.Note){ self.audioPlayer.metronome(BPM:self.library.calcQuarterNotes(BPM: self.BPMText, Notes: self.Note),PlayCount: self.Count)
                         }
                         if self.library.NoteIntCheck(Note: self.Note2){ self.audioPlayer.metronome(BPM:self.library.calcQuarterNotes(BPM: self.BPMText, Notes: self.Note2),PlayCount: self.Count2)
                         }
                         if self.library.NoteIntCheck(Note: self.Note3){ self.audioPlayer.metronome(BPM:self.library.calcQuarterNotes(BPM: self.BPMText, Notes: self.Note3),PlayCount: self.Count3)
+                        }
+                        if self.library.NoteIntCheck(Note: self.Note4){ self.audioPlayer.metronome(BPM:self.library.calcQuarterNotes(BPM: self.BPMText, Notes: self.Note4),PlayCount: self.Count4)
+                        }
+                        if self.library.NoteIntCheck(Note: self.Note5){ self.audioPlayer.metronome(BPM:self.library.calcQuarterNotes(BPM: self.BPMText, Notes: self.Note5),PlayCount: self.Count5)
                         }
                     }) {
                         Text("再生")
