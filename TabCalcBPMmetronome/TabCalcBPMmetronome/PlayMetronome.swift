@@ -108,16 +108,15 @@ struct PlayMetronome: View {
                     }
                     
                     Button(action: {
-                        if self.library.NoteIntCheck(Note: self.Note){ self.audioPlayer.metronome(BPM:self.library.calcQuarterNotes(BPM: self.BPMText, Notes: self.Note),PlayCount: self.Count)
-                        }
-                        if self.library.NoteIntCheck(Note: self.Note2){ self.audioPlayer.metronome(BPM:self.library.calcQuarterNotes(BPM: self.BPMText, Notes: self.Note2),PlayCount: self.Count2)
-                        }
-                        if self.library.NoteIntCheck(Note: self.Note3){ self.audioPlayer.metronome(BPM:self.library.calcQuarterNotes(BPM: self.BPMText, Notes: self.Note3),PlayCount: self.Count3)
-                        }
-                        if self.library.NoteIntCheck(Note: self.Note4){ self.audioPlayer.metronome(BPM:self.library.calcQuarterNotes(BPM: self.BPMText, Notes: self.Note4),PlayCount: self.Count4)
-                        }
-                        if self.library.NoteIntCheck(Note: self.Note5){ self.audioPlayer.metronome(BPM:self.library.calcQuarterNotes(BPM: self.BPMText, Notes: self.Note5),PlayCount: self.Count5)
-                        }
+                        self.PlayMetronomeSound(Note: self.Note, BPMText: self.BPMText, Playcount: self.Count)
+                        
+                        self.PlayMetronomeSound(Note: self.Note2, BPMText: self.BPMText, Playcount: self.Count2)
+                        
+                        self.PlayMetronomeSound(Note: self.Note3, BPMText: self.BPMText, Playcount: self.Count3)
+                        
+                        self.PlayMetronomeSound(Note: self.Note4, BPMText: self.BPMText, Playcount: self.Count4)
+                        
+                        self.PlayMetronomeSound(Note: self.Note5, BPMText: self.BPMText, Playcount: self.Count5)
                     }) {
                         Text("再生")
                     }
@@ -129,8 +128,13 @@ struct PlayMetronome: View {
             }
         }
     }
-    func NoteCheck(Note: String){
-        
+    func PlayMetronomeSound(Note: String, BPMText:String, Playcount: String){
+        if library.NoteIntCheck(Note: Note){
+            if Note == "0"{ audioPlayer.notSoundMetronome(BPM:library.calcQuarterNotes(BPM: BPMText, Notes: Note),PlayCount: Count)
+            }else{
+                audioPlayer.metronome(BPM:library.calcQuarterNotes(BPM: BPMText, Notes: Note),PlayCount: Count)
+            }
+        }
     }
 }
 

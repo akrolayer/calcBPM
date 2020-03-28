@@ -53,9 +53,9 @@ depends-member:
 - ["19TabCalcBPMmetronome11AudioPlayerC", "deinit"]
 - ["19TabCalcBPMmetronome11AudioPlayerC", "init"]
 - ["19TabCalcBPMmetronome11AudioPlayerC", "metronome"]
+- ["19TabCalcBPMmetronome11AudioPlayerC", "notSoundMetronome"]
 - ["19TabCalcBPMmetronome11AudioPlayerC", "objectWillChange"]
 - ["19TabCalcBPMmetronome11AudioPlayerC", "playSound2"]
-- ["19TabCalcBPMmetronome11AudioPlayerC", "playSound3"]
 - ["19TabCalcBPMmetronome11AudioPlayerC", "playSound4"]
 - !private ["19TabCalcBPMmetronome11AudioPlayerC", "print"]
 - ["19TabCalcBPMmetronome11AudioPlayerC", "sound"]
@@ -268,4 +268,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "68be7978c6a2cc757532fecaad0a70d8"
+interface-hash: "6278a2309eab3a8d1ddafc89a373f6a9"

@@ -12,6 +12,7 @@ provides-member:
 - ["So13UIApplicationC", "endEditting1"]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "=="
 - "AudioPlayer"
 - !private "Button"
 - !private "Color"
@@ -39,6 +40,7 @@ depends-member:
 - ["19TabCalcBPMmetronome11AudioPlayerC", "deinit"]
 - ["19TabCalcBPMmetronome11AudioPlayerC", "init"]
 - !private ["19TabCalcBPMmetronome11AudioPlayerC", "metronome"]
+- !private ["19TabCalcBPMmetronome11AudioPlayerC", "notSoundMetronome"]
 - !private ["7SwiftUI6ButtonV", "init"]
 - !private ["s7CVarArgP", "UIResponder"]
 - !private ["s7CVarArgP", "endEditting1"]
@@ -120,6 +122,7 @@ depends-member:
 - !private ["7Combine16ObservableObjectP", "calcQuarterNotes"]
 - ["7Combine16ObservableObjectP", "init"]
 - !private ["7Combine16ObservableObjectP", "metronome"]
+- !private ["7Combine16ObservableObjectP", "notSoundMetronome"]
 - ["7SwiftUI14ObservedObjectV", "init"]
 - ["7SwiftUI14ObservedObjectV", "wrappedValue"]
 - !private ["Sq", "headline"]
@@ -155,9 +158,9 @@ depends-member:
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "Note3"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "Note4"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "Note5"]
-- ["19TabCalcBPMmetronome13PlayMetronomeV", "NoteCheck"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "NotesList"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "ObservedObject"]
+- ["19TabCalcBPMmetronome13PlayMetronomeV", "PlayMetronomeSound"]
 - !private ["19TabCalcBPMmetronome13PlayMetronomeV", "RoundedBorderTextFieldStyle"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "State"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "String"]
@@ -275,6 +278,7 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "Note3"]
 - !private ["7SwiftUI4ViewP", "Note4"]
 - !private ["7SwiftUI4ViewP", "Note5"]
+- !private ["7SwiftUI4ViewP", "PlayMetronomeSound"]
 - !private ["7SwiftUI4ViewP", "RoundedBorderTextFieldStyle"]
 - !private ["7SwiftUI4ViewP", "Text"]
 - !private ["7SwiftUI4ViewP", "TextField"]
@@ -432,4 +436,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "e958ff5a3d3b3f54c49ed06a001985fc"
+interface-hash: "cd365af60b5e8d7f21a0d5a6173c3ef9"

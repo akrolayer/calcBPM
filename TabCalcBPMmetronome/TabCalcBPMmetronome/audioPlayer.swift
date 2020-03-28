@@ -22,19 +22,10 @@ class AudioPlayer: ObservableObject {
             }
         }
     }
+    
     func playSound2(){
         // dtmf-8.caf    TouchTone
         var soundIdRing:SystemSoundID = 1208
-         
-        if let soundUrl = CFBundleCopyResourceURL(CFBundleGetMainBundle(), nil, nil, nil){
-            AudioServicesCreateSystemSoundID(soundUrl, &soundIdRing)
-            AudioServicesPlaySystemSound(soundIdRing)
-        }
-    }
-    
-    func playSound3(){
-        
-        var soundIdRing:SystemSoundID = 1000
          
         if let soundUrl = CFBundleCopyResourceURL(CFBundleGetMainBundle(), nil, nil, nil){
             AudioServicesCreateSystemSoundID(soundUrl, &soundIdRing)
@@ -56,5 +47,19 @@ class AudioPlayer: ObservableObject {
         }
             return true
     }
+    @discardableResult
+    func notSoundMetronome(BPM: String, PlayCount: String) -> Bool{
+        guard let bpm = Double(BPM)
+            else { return false }
+        guard let playcount = Int(PlayCount)
+            else { return false }
+        var i = 0
+        while(i < playcount) {
+            Thread.sleep(forTimeInterval: 60 / bpm)
+            i += 1
+        }
+            return true
+    }
+    
 }
 
