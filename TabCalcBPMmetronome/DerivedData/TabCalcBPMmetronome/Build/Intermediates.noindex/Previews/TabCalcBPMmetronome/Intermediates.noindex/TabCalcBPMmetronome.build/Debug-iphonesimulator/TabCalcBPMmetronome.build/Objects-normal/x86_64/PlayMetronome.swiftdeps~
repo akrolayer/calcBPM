@@ -13,6 +13,8 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "AudioPlayer"
+- "Bool"
+- "BooleanLiteralType"
 - !private "Button"
 - !private "Color"
 - "FloatLiteralType"
@@ -29,6 +31,7 @@ depends-top-level:
 - "StringLiteralType"
 - !private "Text"
 - !private "TextField"
+- !private "Toggle"
 - "UIApplication"
 - !private "UIResponder"
 - "UnicodeScalarType"
@@ -39,6 +42,7 @@ depends-member:
 - ["19TabCalcBPMmetronome11AudioPlayerC", "deinit"]
 - ["19TabCalcBPMmetronome11AudioPlayerC", "init"]
 - !private ["19TabCalcBPMmetronome11AudioPlayerC", "metronome"]
+- !private ["19TabCalcBPMmetronome11AudioPlayerC", "notSoundMetronome"]
 - !private ["7SwiftUI6ButtonV", "init"]
 - !private ["s7CVarArgP", "UIResponder"]
 - !private ["s7CVarArgP", "endEditting1"]
@@ -120,6 +124,7 @@ depends-member:
 - !private ["7Combine16ObservableObjectP", "calcQuarterNotes"]
 - ["7Combine16ObservableObjectP", "init"]
 - !private ["7Combine16ObservableObjectP", "metronome"]
+- !private ["7Combine16ObservableObjectP", "notSoundMetronome"]
 - ["7SwiftUI14ObservedObjectV", "init"]
 - ["7SwiftUI14ObservedObjectV", "wrappedValue"]
 - !private ["Sq", "headline"]
@@ -136,11 +141,17 @@ depends-member:
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "$Note4"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "$Note5"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "$audioPlayer"]
+- ["19TabCalcBPMmetronome13PlayMetronomeV", "$isRest1"]
+- ["19TabCalcBPMmetronome13PlayMetronomeV", "$isRest2"]
+- ["19TabCalcBPMmetronome13PlayMetronomeV", "$isRest3"]
+- ["19TabCalcBPMmetronome13PlayMetronomeV", "$isRest4"]
+- ["19TabCalcBPMmetronome13PlayMetronomeV", "$isRest5"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "$library"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "$line"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "AudioPlayer"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "BPMText"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "Body"]
+- ["19TabCalcBPMmetronome13PlayMetronomeV", "Bool"]
 - !private ["19TabCalcBPMmetronome13PlayMetronomeV", "Button"]
 - !private ["19TabCalcBPMmetronome13PlayMetronomeV", "Color"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "Count"]
@@ -155,14 +166,15 @@ depends-member:
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "Note3"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "Note4"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "Note5"]
-- ["19TabCalcBPMmetronome13PlayMetronomeV", "NoteCheck"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "NotesList"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "ObservedObject"]
+- ["19TabCalcBPMmetronome13PlayMetronomeV", "PlayMetronomeSound"]
 - !private ["19TabCalcBPMmetronome13PlayMetronomeV", "RoundedBorderTextFieldStyle"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "State"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "String"]
 - !private ["19TabCalcBPMmetronome13PlayMetronomeV", "Text"]
 - !private ["19TabCalcBPMmetronome13PlayMetronomeV", "TextField"]
+- !private ["19TabCalcBPMmetronome13PlayMetronomeV", "Toggle"]
 - !private ["19TabCalcBPMmetronome13PlayMetronomeV", "UIApplication"]
 - !private ["19TabCalcBPMmetronome13PlayMetronomeV", "VStack"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "View"]
@@ -180,6 +192,11 @@ depends-member:
 - !private ["19TabCalcBPMmetronome13PlayMetronomeV", "_Note4"]
 - !private ["19TabCalcBPMmetronome13PlayMetronomeV", "_Note5"]
 - !private ["19TabCalcBPMmetronome13PlayMetronomeV", "_audioPlayer"]
+- !private ["19TabCalcBPMmetronome13PlayMetronomeV", "_isRest1"]
+- !private ["19TabCalcBPMmetronome13PlayMetronomeV", "_isRest2"]
+- !private ["19TabCalcBPMmetronome13PlayMetronomeV", "_isRest3"]
+- !private ["19TabCalcBPMmetronome13PlayMetronomeV", "_isRest4"]
+- !private ["19TabCalcBPMmetronome13PlayMetronomeV", "_isRest5"]
 - !private ["19TabCalcBPMmetronome13PlayMetronomeV", "_library"]
 - !private ["19TabCalcBPMmetronome13PlayMetronomeV", "_line"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "_makeView"]
@@ -188,6 +205,11 @@ depends-member:
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "body"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "deinit"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "init"]
+- ["19TabCalcBPMmetronome13PlayMetronomeV", "isRest1"]
+- ["19TabCalcBPMmetronome13PlayMetronomeV", "isRest2"]
+- ["19TabCalcBPMmetronome13PlayMetronomeV", "isRest3"]
+- ["19TabCalcBPMmetronome13PlayMetronomeV", "isRest4"]
+- ["19TabCalcBPMmetronome13PlayMetronomeV", "isRest5"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "library"]
 - ["19TabCalcBPMmetronome13PlayMetronomeV", "line"]
 - !private ["19TabCalcBPMmetronome22PlayMetronome_PreviewsV", "PlayMetronome"]
@@ -221,6 +243,8 @@ depends-member:
 - !private ["7SwiftUI9TextFieldV", "init"]
 - !private ["7SwiftUI9TextFieldV", "textFieldStyle"]
 - !private ["7SwiftUI14TextFieldStyleP", "init"]
+- !private ["7SwiftUI6ToggleV", "frame"]
+- !private ["7SwiftUI6ToggleV", "init"]
 - !private ["So13UIApplicationC", "UIResponder"]
 - ["So13UIApplicationC", "endEditting1"]
 - !private ["So13UIApplicationC", "sendAction"]
@@ -258,6 +282,11 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "$Note3"]
 - !private ["7SwiftUI4ViewP", "$Note4"]
 - !private ["7SwiftUI4ViewP", "$Note5"]
+- !private ["7SwiftUI4ViewP", "$isRest1"]
+- !private ["7SwiftUI4ViewP", "$isRest2"]
+- !private ["7SwiftUI4ViewP", "$isRest3"]
+- !private ["7SwiftUI4ViewP", "$isRest4"]
+- !private ["7SwiftUI4ViewP", "$isRest5"]
 - ["7SwiftUI4ViewP", "AudioPlayer"]
 - !private ["7SwiftUI4ViewP", "BPMText"]
 - ["7SwiftUI4ViewP", "Body"]
@@ -275,9 +304,11 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "Note3"]
 - !private ["7SwiftUI4ViewP", "Note4"]
 - !private ["7SwiftUI4ViewP", "Note5"]
+- !private ["7SwiftUI4ViewP", "PlayMetronomeSound"]
 - !private ["7SwiftUI4ViewP", "RoundedBorderTextFieldStyle"]
 - !private ["7SwiftUI4ViewP", "Text"]
 - !private ["7SwiftUI4ViewP", "TextField"]
+- !private ["7SwiftUI4ViewP", "Toggle"]
 - !private ["7SwiftUI4ViewP", "UIApplication"]
 - !private ["7SwiftUI4ViewP", "VStack"]
 - !private ["7SwiftUI4ViewP", "ZStack"]
@@ -292,6 +323,11 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "frame"]
 - !private ["7SwiftUI4ViewP", "headline"]
 - !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "isRest1"]
+- !private ["7SwiftUI4ViewP", "isRest2"]
+- !private ["7SwiftUI4ViewP", "isRest3"]
+- !private ["7SwiftUI4ViewP", "isRest4"]
+- !private ["7SwiftUI4ViewP", "isRest5"]
 - !private ["7SwiftUI4ViewP", "keyboardType"]
 - !private ["7SwiftUI4ViewP", "library"]
 - !private ["7SwiftUI4ViewP", "onTapGesture"]
@@ -354,6 +390,7 @@ depends-nominal:
 - !private "7SwiftUI4TextV"
 - !private "7SwiftUI9TextFieldV"
 - !private "7SwiftUI14TextFieldStyleP"
+- !private "7SwiftUI6ToggleV"
 - "So13UIApplicationC"
 - !private "So14UIKeyboardTypeV"
 - !private "So30UIPasteConfigurationSupportingP"
@@ -432,4 +469,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "e958ff5a3d3b3f54c49ed06a001985fc"
+interface-hash: "db2abf4ce51987c9f55ffd37be961de3"

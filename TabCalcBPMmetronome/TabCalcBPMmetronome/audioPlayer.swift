@@ -41,8 +41,8 @@ class AudioPlayer: ObservableObject {
             else { return false }
         var i = 0
         while(i < playcount) {
-            self.playSound4()
             Thread.sleep(forTimeInterval: 60 / bpm)
+            self.playSound4()
             i += 1
         }
             return true

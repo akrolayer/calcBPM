@@ -29,6 +29,11 @@ struct PlayMetronome: View {
     @State var Count4: String = ""
     @State var Count5: String = ""
     @State var line: String = ""
+    @State var isRest1: Bool = false
+    @State var isRest2: Bool = false
+    @State var isRest3: Bool = false
+    @State var isRest4: Bool = false
+    @State var isRest5: Bool = false
     
     let NotesList = ["4", "8", "12", "16", "24", "32", "48", "64"]
     
@@ -58,6 +63,11 @@ struct PlayMetronome: View {
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                             .keyboardType(.numberPad)
                             .frame(width: 100)
+                        
+                        Toggle(isOn: $isRest1) {
+                            Text("休符")
+                        }
+                        .frame(width: 100)
                     }
                     HStack{
                         TextField("何分音符", text:$Note2)
@@ -69,6 +79,11 @@ struct PlayMetronome: View {
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                             .keyboardType(.numberPad)
                             .frame(width: 100)
+                        
+                        Toggle(isOn: $isRest2) {
+                            Text("休符")
+                        }
+                        .frame(width: 100)
                     }
                     
                     HStack{
@@ -77,22 +92,24 @@ struct PlayMetronome: View {
                                 .keyboardType(.numberPad)
                                 .frame(width: 100)
                         
-                        TextField("回数", text:$Count3)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                            .keyboardType(.numberPad)
+                        TextField("回数", text:$Count3) .textFieldStyle(RoundedBorderTextFieldStyle()) .keyboardType(.numberPad)
                             .frame(width: 100)
+                        Toggle(isOn: $isRest3) {
+                            Text("休符")
+                        }
+                        .frame(width: 100)
                     }
                     
                     HStack{
                         TextField("何分音符", text:$Note4)
-                            .textFieldStyle(RoundedBorderTextFieldStyle())
-                                .keyboardType(.numberPad)
+                            .textFieldStyle(RoundedBorderTextFieldStyle()).keyboardType(.numberPad)
                                 .frame(width: 100)
-                        
-                        TextField("回数", text:$Count4)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                            .keyboardType(.numberPad)
+                        TextField("回数", text:$Count4).textFieldStyle(RoundedBorderTextFieldStyle()).keyboardType(.numberPad)
                             .frame(width: 100)
+                        Toggle(isOn: $isRest4) {
+                            Text("休符")
+                        }
+                        .frame(width: 100)
                     }
                     
                     HStack{
@@ -100,23 +117,23 @@ struct PlayMetronome: View {
                             .textFieldStyle(RoundedBorderTextFieldStyle())
                                 .keyboardType(.numberPad)
                                 .frame(width: 100)
-                        
-                        TextField("回数", text:$Count5)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                            .keyboardType(.numberPad)
+                        TextField("回数", text:$Count5).textFieldStyle(RoundedBorderTextFieldStyle()).keyboardType(.numberPad)
                             .frame(width: 100)
+                        Toggle(isOn: $isRest5) {
+                            Text("休符")
+                        }
+                        .frame(width: 100)
                     }
                     
                     Button(action: {
-                        self.PlayMetronomeSound(Note: self.Note, BPMText: self.BPMText, Playcount: self.Count)
+                        self.PlayMetronomeSound(Note: self.Note, BPMText: self.BPMText, PlayCount: self.Count,isRest: self.isRest1)
+                        self.PlayMetronomeSound(Note: self.Note2, BPMText: self.BPMText, PlayCount: self.Count2,isRest: self.isRest2)
                         
-                        self.PlayMetronomeSound(Note: self.Note2, BPMText: self.BPMText, Playcount: self.Count2)
+                        self.PlayMetronomeSound(Note: self.Note3, BPMText: self.BPMText, PlayCount: self.Count3,isRest: self.isRest3)
                         
-                        self.PlayMetronomeSound(Note: self.Note3, BPMText: self.BPMText, Playcount: self.Count3)
+                        self.PlayMetronomeSound(Note: self.Note4, BPMText: self.BPMText, PlayCount: self.Count4,isRest: self.isRest4)
                         
-                        self.PlayMetronomeSound(Note: self.Note4, BPMText: self.BPMText, Playcount: self.Count4)
-                        
-                        self.PlayMetronomeSound(Note: self.Note5, BPMText: self.BPMText, Playcount: self.Count5)
+                        self.PlayMetronomeSound(Note: self.Note5, BPMText: self.BPMText, PlayCount: self.Count5,isRest: self.isRest5)
                     }) {
                         Text("再生")
                     }
@@ -128,11 +145,10 @@ struct PlayMetronome: View {
             }
         }
     }
-    func PlayMetronomeSound(Note: String, BPMText:String, Playcount: String){
+    func PlayMetronomeSound(Note: String, BPMText:String, PlayCount: String,isRest:Bool){
         if library.NoteIntCheck(Note: Note){
-            if Note == "0"{ audioPlayer.notSoundMetronome(BPM:library.calcQuarterNotes(BPM: BPMText, Notes: Note),PlayCount: Count)
-            }else{
-                audioPlayer.metronome(BPM:library.calcQuarterNotes(BPM: BPMText, Notes: Note),PlayCount: Count)
+            if isRest{ audioPlayer.notSoundMetronome(BPM:library.calcQuarterNotes(BPM: BPMText, Notes: Note),PlayCount: PlayCount)
+            }else{                audioPlayer.metronome(BPM:library.calcQuarterNotes(BPM: BPMText, Notes: Note),PlayCount: PlayCount)
             }
         }
     }

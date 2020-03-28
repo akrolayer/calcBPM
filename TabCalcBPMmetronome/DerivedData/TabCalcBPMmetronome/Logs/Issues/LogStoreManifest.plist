@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>47AAFB68-2047-4929-81A4-24446B6767E1</key>
+		<key>29736A67-48AD-445F-986C-E6C0C51B3668</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
 			<key>fileName</key>
-			<string>47AAFB68-2047-4929-81A4-24446B6767E1.xcactivitylog</string>
+			<string>29736A67-48AD-445F-986C-E6C0C51B3668.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,15 +26,15 @@
 			<key>signature</key>
 			<string>TabCalcBPMmetronomeTests-bzaawvpwhbcotbgvmloligbzomuv</string>
 			<key>timeStartedRecording</key>
-			<real>607090994.37920499</real>
+			<real>607105900.97931695</real>
 			<key>timeStoppedRecording</key>
-			<real>607090995.48846495</real>
+			<real>607105902.59422004</real>
 			<key>title</key>
 			<string>Build target TabCalcBPMmetronomeTests</string>
 			<key>uniqueIdentifier</key>
-			<string>47AAFB68-2047-4929-81A4-24446B6767E1</string>
+			<string>29736A67-48AD-445F-986C-E6C0C51B3668</string>
 		</dict>
-		<key>981C633E-CF12-4015-AF28-5B96372C9B5A</key>
+		<key>86D09FBB-D3C0-4939-8680-6DA578DF4A17</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,7 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>981C633E-CF12-4015-AF28-5B96372C9B5A.xcactivitylog</string>
+			<string>86D09FBB-D3C0-4939-8680-6DA578DF4A17.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,13 +54,13 @@
 			<key>signature</key>
 			<string>TabCalcBPMmetronome-bzaawvpwhbcotbgvmloligbzomuv</string>
 			<key>timeStartedRecording</key>
-			<real>607090989.14822495</real>
+			<real>607105896.81450605</real>
 			<key>timeStoppedRecording</key>
-			<real>607090994.37776804</real>
+			<real>607105900.97372901</real>
 			<key>title</key>
 			<string>Build target TabCalcBPMmetronome</string>
 			<key>uniqueIdentifier</key>
-			<string>981C633E-CF12-4015-AF28-5B96372C9B5A</string>
+			<string>86D09FBB-D3C0-4939-8680-6DA578DF4A17</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

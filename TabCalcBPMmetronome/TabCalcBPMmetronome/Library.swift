@@ -20,7 +20,7 @@ class Library: ObservableObject {
         guard let note = Int(Note) else{
             return false
         }
-        let NotesList = [0, 4, 8, 12, 16, 24, 32, 48, 64]
+        let NotesList = [4, 8, 12, 16, 24, 32, 48, 64]
         return NotesList.contains(note)
     }
     
