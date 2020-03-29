@@ -52,7 +52,16 @@ struct PlayMetronome: View {
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                     .keyboardType(.numberPad)
                     .frame(width: 100)
-                if self.library.BPMIntCheck(BPM: self.BPMText){
+                if  self.library.BPMIntCheck(BPM: self.BPMText){
+                    Text("音符は４〜６４分です。三連符は12,24,48分です。存在しない音符は再生されません。")
+                    HStack{
+                        Text("何分音符")
+                            .frame(width: 100)
+                        Text("回数")
+                            .frame(width: 100)
+                        Text("休符")
+                            .frame(width: 100)
+                    }
                     HStack{
                         TextField("何分音符", text:$Note)
                             .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -69,6 +78,7 @@ struct PlayMetronome: View {
                         }
                         .frame(width: 100)
                     }
+
                     HStack{
                         TextField("何分音符", text:$Note2)
                             .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -85,7 +95,7 @@ struct PlayMetronome: View {
                         }
                         .frame(width: 100)
                     }
-                    
+
                     HStack{
                         TextField("何分音符", text:$Note3)
                             .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -99,7 +109,7 @@ struct PlayMetronome: View {
                         }
                         .frame(width: 100)
                     }
-                    
+
                     HStack{
                         TextField("何分音符", text:$Note4)
                             .textFieldStyle(RoundedBorderTextFieldStyle()).keyboardType(.numberPad)
@@ -111,7 +121,7 @@ struct PlayMetronome: View {
                         }
                         .frame(width: 100)
                     }
-                    
+
                     HStack{
                         TextField("何分音符", text:$Note5)
                             .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -137,8 +147,7 @@ struct PlayMetronome: View {
                     }) {
                         Text("再生")
                     }
-                }else{
-                    Text("10~1000を入力してください")
+                }else{                    Text("10~1000を入力してください")
                     .foregroundColor(.red)
                     .font(.headline)
                 }

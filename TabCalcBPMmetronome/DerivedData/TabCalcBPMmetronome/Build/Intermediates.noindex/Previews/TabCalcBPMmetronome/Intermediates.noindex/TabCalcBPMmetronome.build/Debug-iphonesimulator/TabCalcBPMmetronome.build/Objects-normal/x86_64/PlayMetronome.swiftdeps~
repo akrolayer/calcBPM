@@ -79,6 +79,7 @@ depends-member:
 - !private ["SQ", "endEditting1"]
 - !private ["SQ", "font"]
 - !private ["SQ", "foregroundColor"]
+- !private ["SQ", "frame"]
 - !private ["SQ", "headline"]
 - !private ["SQ", "init"]
 - !private ["SQ", "numberPad"]
@@ -239,6 +240,7 @@ depends-member:
 - ["7SwiftUI5StateV", "wrappedValue"]
 - !private ["7SwiftUI4TextV", "font"]
 - !private ["7SwiftUI4TextV", "foregroundColor"]
+- !private ["7SwiftUI4TextV", "frame"]
 - !private ["7SwiftUI4TextV", "init"]
 - !private ["7SwiftUI9TextFieldV", "init"]
 - !private ["7SwiftUI9TextFieldV", "textFieldStyle"]
@@ -469,4 +471,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "db2abf4ce51987c9f55ffd37be961de3"
+interface-hash: "d6b3d5e02c819a43f87a11218206af86"
