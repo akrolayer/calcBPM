@@ -53,7 +53,11 @@ struct PlayMetronome: View {
                     .keyboardType(.numberPad)
                     .frame(width: 100)
                 if  self.library.BPMIntCheck(BPM: self.BPMText){
-                    Text("音符は４〜６４分です。三連符は12,24,48分です。存在しない音符は再生されません。")
+                    VStack(alignment: .leading){ Text("音符は4〜64分です。")
+                    Text("三連符は12,24,48分です。")
+                    Text("存在しない音符は再生されません。")
+                    }.foregroundColor(.red)
+                        .font(.system(size: 25))
                     HStack{
                         Text("何分音符")
                             .frame(width: 100)

@@ -4,7 +4,7 @@ import SwiftUI
 
 extension PlayMetronome_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/TabCalcBPMmetronome/TabCalcBPMmetronome/PlayMetronome.swift", line: 168)
+        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/TabCalcBPMmetronome/TabCalcBPMmetronome/PlayMetronome.swift", line: 172)
         AnyView(PlayMetronome())
 #sourceLocation()
     }
@@ -12,7 +12,7 @@ extension PlayMetronome_Previews {
 
 extension PlayMetronome {
     @_dynamicReplacement(for: PlayMetronomeSound(Note:BPMText:PlayCount:isRest:)) private func __preview__PlayMetronomeSound(Note: String, BPMText:String, PlayCount: String,isRest:Bool) {
-        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/TabCalcBPMmetronome/TabCalcBPMmetronome/PlayMetronome.swift", line: 158)
+        #sourceLocation(file: "/Users/akrolayer/Desktop/CalcBPMMetronome/TabCalcBPMmetronome/TabCalcBPMmetronome/PlayMetronome.swift", line: 162)
         if library.NoteIntCheck(Note: Note){
             if isRest{ audioPlayer.notSoundMetronome(BPM:library.calcQuarterNotes(BPM: BPMText, Notes: Note),PlayCount: PlayCount)
             }else{                audioPlayer.metronome(BPM:library.calcQuarterNotes(BPM: BPMText, Notes: Note),PlayCount: PlayCount)
@@ -37,7 +37,11 @@ extension PlayMetronome {
                     .keyboardType(.numberPad)
                     .frame(width: __designTimeInteger("#20642.[2].[20].property.[0].[0].arg[0].value.[1].arg[0].value.[1].modifier[2].arg[0].value", fallback: 100))
                 if  self.library.BPMIntCheck(BPM: self.BPMText){
-                    Text(__designTimeString("#20642.[2].[20].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[0].[0].arg[0].value.[0].value", fallback: "音符は４〜６４分です。三連符は12,24,48分です。存在しない音符は再生されません。"))
+                    VStack(alignment: .leading){ Text(__designTimeString("#20642.[2].[20].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[0].[0].arg[1].value.[0].arg[0].value.[0].value", fallback: "音符は4〜64分です。"))
+                    Text(__designTimeString("#20642.[2].[20].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[0].[0].arg[1].value.[1].arg[0].value.[0].value", fallback: "三連符は12,24,48分です。"))
+                    Text(__designTimeString("#20642.[2].[20].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[0].[0].arg[1].value.[2].arg[0].value.[0].value", fallback: "存在しない音符は再生されません。"))
+                    }.foregroundColor(.red)
+                        .font(.system(size: __designTimeInteger("#20642.[2].[20].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[0].[0].modifier[1].arg[0].value.arg[0].value", fallback: 25)))
                     HStack{
                         Text(__designTimeString("#20642.[2].[20].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[0].[1].arg[0].value.[0].arg[0].value.[0].value", fallback: "何分音符"))
                             .frame(width: __designTimeInteger("#20642.[2].[20].property.[0].[0].arg[0].value.[1].arg[0].value.[2].[0].[1].arg[0].value.[0].modifier[0].arg[0].value", fallback: 100))
